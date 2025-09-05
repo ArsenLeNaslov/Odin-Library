@@ -68,13 +68,7 @@ function showModalDialog(book) {
         newTitle.value = book.title;
         newAuthor.value = book.author;
         newPages.value = String(book.pages);
-        if (book.status === 'read') {
-            newRead.value = 'yes';
-        } else if (book.status === 'started') {
-            newRead.value = 'started';
-        } else {
-            newRead.value = 'no';
-        }
+            newRead.value = book.status === 'read' ? 'yes' : (book.status === 'started' ? 'started' : 'no');
         newCover.value = book.cover;
         newLink.value = book.link || "";
     }
@@ -88,16 +82,8 @@ function editExistingBook() {
     bookObj.title = newTitle.value;
     bookObj.author = newAuthor.value;
     bookObj.pages = Number(newPages.value);
-    if (newRead.value === "yes") {
-        bookObj.read = true;
-        bookObj.status = 'read';
-    } else if (newRead.value === "started") {
-        bookObj.read = false;
-        bookObj.status = 'started';
-    } else {
-        bookObj.read = false;
-        bookObj.status = 'not-read';
-    }
+    bookObj.read = newRead.value === "yes";
+    bookObj.status = newRead.value === "yes" ? 'read' : (newRead.value === "started" ? 'started' : 'not-read');
     bookObj.cover = newCover.value;
     bookObj.link = newLink.value;
 
@@ -113,13 +99,7 @@ function createNewBook() {
 
 // Create Book Logic
     let readValue;
-    if (newRead.value === "yes") {
-        readValue = true;
-    } else if (newRead.value === "started") {
-        readValue = "started";
-    } else {
-        readValue = false;
-    }
+    readValue = newRead.value === "yes" ? true : (newRead.value === "started" ? "started" : false);
     const newBook = addBookToLibrary(
         newTitle.value,
         newAuthor.value,
