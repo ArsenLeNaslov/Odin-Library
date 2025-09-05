@@ -2,9 +2,7 @@
 
 Cosmic themed Library, Referencing Odin's Project: [Project: Library](https://www.theodinproject.com/lessons/node-path-javascript-library), on JavaScript Objects and Prototypes.
 
-Live preview: [Odin's Cosmic Library](https://ryleyboofa.github.io/odin-library/).
-
-# New skills used
+Live preview: [Odin's Cosmic Library](https://arsenlenaslov.github.io/Odin-Library/).
 
 # Details
 - Modal Dialog to add new books to the list.
