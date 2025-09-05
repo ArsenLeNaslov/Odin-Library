@@ -11,6 +11,7 @@ Live preview: [Odin's Cosmic Library](https://arsenlenaslov.github.io/Odin-Libra
 - Background image from Pixabay, free for use under the website content license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 -   ["Museo"](https://www.cufonfonts.com/font/museo) & ["ZenDots](https://www.cufonfonts.com/font/zen-dots) fonts are free to use under the [Open Font License](https://openfontlicense.org/)
 -   "File:No-Image-Placeholder.svg" by [Ranjithsiji](https://commons.wikimedia.org/wiki/File:No-Image-Placeholder.svg) is free to use under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
--   All books covers, titles, and related info are owned by their respective owners. The "More Info" buttons redirect to either, the author, editor, or online bookshop page (to which I am not affiliated in anyway).
+-   All books covers, titles, and related info are owned by their respective owners.
+-   The "More Info" button redirect to either, the author, editor, or online bookshop page (to which I am not affiliated in anyway).
 
 <img width="1872" height="917" alt="image" src="https://github.com/user-attachments/assets/311725b7-9aed-431b-b24c-8900c3378d95" />
