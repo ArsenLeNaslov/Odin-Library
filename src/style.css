@@ -1,0 +1,164 @@
+/* Global Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+@font-face {
+    font-family: 'Museo300';
+    src: url('../font/Museo300-Regular.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo700';
+    src: url('../font/Museo700-Regular.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+/* General Style */
+    margin: 0;
+    padding: 0;
+}
+
+/* Drop-down menu filter style */
+#filter-read {
+    background: transparent;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px var(--color-shadow);
+    color: black;
+    padding: 0.55em 1.2em;
+    font-size: 0.8em;
+    border-radius: 0.5em;
+    transition: box-shadow 0.2s;
+}
+
+#filter-read:hover {
+    box-shadow: 0 0 8px 2px yellow;
+    color: yellow;
+}
+
+:root {
+    --font-heading: 'Museo700', sans-serif;
+    --font-body: 'Museo300', sans-serif;
+    --fs-small: clamp(0.6rem, 0.5rem + 0.5vw, 1rem);
+    --fs-medium: clamp(1rem, 0.5rem + 1vw, 1.5rem);
+    --fs-large: clamp(1.5rem, 1rem + 1vw, 2.5rem);
+    --fs-xl: clamp(2rem, 1.5rem + 1vw, 3rem);
+    --color-yellow: yellow;
+    --color-orange: orange;
+    --color-white: #fff;
+    --color-shadow: #0009;
+}
+
+body {
+    font-family: var(--font-body), sans-serif;
+    font-size: 20px;
+    background: url('../img/galaxy.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+}
+
+/* Buttons Styling */
+button,
+input,
+select {
+    font-family: var(--font-body), sans-serif;
+    border-radius: 0.75em;
+    padding: 0.75em 1.75em;
+}
+
+button {
+    background-color: var(--color-blue);
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px var(--color-shadow);
+    transform: scale(1);
+    transition: 0.1s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px var(--color-yellow);
+    color: yellow;
+}
+
+.dialog-buttons button[value="cancel"]:hover  {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px blue;
+    color: blue;
+}
+
+.dialog-buttons button#confirm:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px blue;
+    color: blue;
+}
+
+button:active {
+    background-color: var(--color-orange);
+    color: black;
+}
+
+i {
+    margin-right: 0.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: var(--fs-medium);
+}
+
+.content {
+    font-family: var(--font-body);
+    flex: 1;
+    max-width: 75ch;
+}
+
+.shadow {
+    box-shadow: 0px 0px 8px var(--color-shadow);
+}
+
+.page-title,
+.book-title {
+    letter-spacing: 0.1em;
+}
+
+/* Header */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title {
+    font-size: var(--fs-xl);
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    font-family: 'Zen Dots', cursive;
+    color: cyan;
+    text-shadow: 2px 2px 6px blue;
+}
+
+.page-title i {
+    color: var(--color-blue);
+}
+
+#new-book-button i {
+    font-size: 1.1em;
+    font-weight: bold;
+}
