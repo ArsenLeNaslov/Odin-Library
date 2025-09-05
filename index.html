@@ -17,5 +17,71 @@
         />
     </head>
     <body>
+        <div class="page-container">
+            <header class="header container">
+                <div class="header-content content">
+                    <h1 class="page-title">
+                        <img src="img/solar-system.gif" alt="Solar System" style="height:1.5em;vertical-align:middle;"> Odin's Cosmic Library
+                    </h1>
+                    <button id="new-book-button">
+                        <i class="fa-solid fa-plus" aria-hidden="true"></i>Add Book
+                    </button>
+                </div>
+            </header>
+            <dialog class="new-book-dialog">
+                <form action="" class="new-book-form">
+                    <div class="new-title">
+                        <label for="title">Title (Required):</label>
+                        <input type="text" name="title" id="title" minlength="1" maxlength="60" />
+                    </div>
+                    <div class="new-author">
+                        <label for="author">Author(s) (Required):</label>
+                        <input type="text" name="author" id="author" minlength="1" maxlength="30" />
+                    </div>
+                    <div class="new-pages">
+                        <label for="pages">Page Count (Required):</label>
+                        <input type="number" name="pages" id="pages" min="1" />
+                    </div>
+                    <div class="new-read">
+                        <label for="read">Has the book been read?</label>
+                        <select name="read" id="read">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+                    <div class="new-cover">
+                        <label for="cover">Cover art URL (Optional):</label>
+                        <input type="url" name="cover" id="cover" placeholder="https://example.com" />
+                        <div class="new-link">
+                            <label for="link"> (Optional):</label>
+                            <input type="url" name="link" id="link" placeholder="https://example.com" />
+                        </div>
+                    </div>
+                    <div class="dialog-buttons">
+                        <button value="cancel" formmethod="dialog">Cancel</button>
+                        <button id="confirm" value="confirm">Confirm</button>
+                    </div>
+                </form>
+            </dialog>
+            <section class="library container">
+                <div class="library-content content">
+                    <h2 class="library-heading">Your Collection</h2>
+                        <div class="filter-container" style="text-align:center; margin-bottom:1em;">
+                            <label for="filter-read" style="margin-top:1.5em; display:inline-block; font-weight:bold;">Show: </label>
+                            <select id="filter-read" style="margin-top:1.5em; background:transparent;">
+                                <option value="all">All Books</option>
+                                <option value="read">Read</option>
+                            <option value="started">Started</option>
+                            <option value="not-read">Not Read</option>
+                            </select>
+                        </div>
+                    <div class="collection-details">
+                        <p class="book-count"> books in your Library</p>
+                        <p class="edit-message">Click on a book to edit it's details</p>
+                    </div>
+                    <div class="booksContainer"></div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
