@@ -4,8 +4,6 @@ Cosmic themed Library, Referencing Odin's Project: [Project: Library](https://ww
 
 Live preview: [Odin's Cosmic Library](https://ryleyboofa.github.io/odin-library/).
 
-# New skills used
-
 # Details
 - Modal Dialog to add new books to the list.
 - Drop-down menu to filter between Read, Started, and Not Read books.
