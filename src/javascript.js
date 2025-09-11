@@ -396,6 +396,14 @@ addBookToLibrary(
     "https://www.josesaramago.org/en/book/blindness-essay/"
 );
 addBookToLibrary(
+    "Ringworld",
+    "Larry Niven",
+    342,
+    true,
+    "img/Ringworld.jpg",
+    "https://www.worldswithoutend.com/novel.asp?ID=18"
+);
+addBookToLibrary(
     "The Unaccountability Machine",
     "Dan Davies",
     304,
