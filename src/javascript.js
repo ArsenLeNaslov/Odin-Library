@@ -551,7 +551,7 @@ addBookToLibrary(
     "Questa Trieste",
     "Marija Pirjevec",
     270,
-    false,
+    "started",
     "img/Trst.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/questa-trieste/"
 );
@@ -607,7 +607,7 @@ addBookToLibrary(
     "Zora: Una storia di resistenza",
     "Lida Turk",
     245,
-    "started",
+    true,
     "img/Zora.jpg",
     "https://www.ztt-est.it/sl/knjige/zora"
 );
