@@ -388,6 +388,14 @@ addBookToLibrary(
     "https://www.spiegelburg-shop.de/grosse-schmuckausgabe-bram-stoker-dracula/64224"
 );
 addBookToLibrary(
+    "From Here to Eternity",
+    "Caitlin Doughty",
+    248,
+    true,
+    "img/FromHere.png",
+    "https://caitlindoughty.com/books/from-here-to-eternity/"
+);
+addBookToLibrary(
     "Blindness - Ensaio sobre a Cegueira",
     "José Saramago",
     320,
@@ -559,7 +567,7 @@ addBookToLibrary(
     "Stanotte l'ho Vista - To noč sem jo Videl",
     "Drago Jančar",
     212,
-    false,
+    true,
     "img/Videl.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/stanotte-lho-vista/"
 );
