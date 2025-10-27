@@ -559,7 +559,7 @@ addBookToLibrary(
     "Questa Trieste",
     "Marija Pirjevec",
     270,
-    "started",
+    true,
     "img/Trst.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/questa-trieste/"
 );
