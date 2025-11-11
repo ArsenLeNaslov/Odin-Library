@@ -327,7 +327,7 @@ addBookToLibrary(
     "Two Bottles of Relish",
     "Lord Dunsany",
     234,
-    "started",
+    true,
     "img/2Bottles.png",
     "https://www.ebsco.com/research-starters/literature-and-writing/two-bottles-relish-lord-dunsany"
 );
@@ -362,6 +362,14 @@ addBookToLibrary(
     true,
     "img/Fahrenheit451.jpg",
     "https://en.wikipedia.org/wiki/Fahrenheit_451"
+);
+addBookToLibrary(
+    "The Island of Doctor Moreau",
+    "H.G. Wells",
+    193,
+    "started",
+    "img/Moreau.png",
+    "https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau"
 );
 addBookToLibrary(
     "The New Annotated H.P. Lovecraft",
@@ -408,7 +416,7 @@ addBookToLibrary(
     "Larry Niven",
     342,
     true,
-    "img/Ringworld.jpg",
+    "img/Ringworld.png",
     "https://www.worldswithoutend.com/novel.asp?ID=18"
 );
 addBookToLibrary(
@@ -551,7 +559,7 @@ addBookToLibrary(
     "Boris Pahor: Scrittore Senza Frontiere",
     "Walter Chiereghin & Fulvio Senardi",
     352,
-    false,
+    "started",
     "img/Pahor2.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/boris-pahor-scrittore-senza-frontiere/"
 );
