@@ -367,7 +367,7 @@ addBookToLibrary(
     "The Island of Doctor Moreau",
     "H.G. Wells",
     193,
-    "started",
+    true,
     "img/Moreau.png",
     "https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau"
 );
