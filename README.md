@@ -1,4 +1,4 @@
-# Odin Library
+# Odin's Library
 
 Cosmic themed Library, Referencing Odin's Project: [Project: Library](https://www.theodinproject.com/lessons/node-path-javascript-library), on JavaScript Objects and Prototypes.
 
