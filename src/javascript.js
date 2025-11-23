@@ -500,6 +500,14 @@ addBookToLibrary(
     "https://www.ts360srl.com/it/spletna-knjigarna/il-narodni-dom-di-trieste-1904-1920/"
 );
 addBookToLibrary(
+    "La Fiamma Nera",
+    "Ivan Smiljanić & Zoran Smiljanić",
+    79,
+    false,
+    "img/Plamen.jpg",
+    "https://www.ibs.it/fiamma-nera-rogo-del-narodni-libro-ivan-smiljanic-zoran-smiljanic/e/9788899007898#cc-anchor-dettagli"
+);
+addBookToLibrary(
     "A cavallo del muro",
     "Demetrio Volcic",
     192,
@@ -514,6 +522,14 @@ addBookToLibrary(
     true,
     "img/Pahor.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/quello-che-ho-da-dirvi/"
+);
+addBookToLibrary(
+    "Necropoli",
+    "Boris Pahor",
+    160,
+    true,
+    "img/Necropoli.jpg",
+    "https://www.ibs.it/necropoli-graphic-novel-libro-boris-pahor/e/9788893132558#cc-anchor-dettagli"
 );
 addBookToLibrary(
     "Un Onomasticidio di Stato",
