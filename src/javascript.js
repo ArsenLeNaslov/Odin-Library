@@ -484,6 +484,14 @@ addBookToLibrary(
     "https://www.goodreads.com/book/show/61043.Trieste_and_The_Meaning_of_Nowhere"
 );
 addBookToLibrary(
+    "Serbi Croati Sloveni",
+    "Jože Pirjevec",
+    236,
+    true,
+    "img/SHS.jpeg",
+    "https://www.mulino.it/isbn/9788815259363"
+);
+addBookToLibrary(
     "Storia degli sloveni in Italia 1866-1998",
     "Milica Kacin Wohinz & Jože Pirjevec",
     150,
@@ -514,6 +522,14 @@ addBookToLibrary(
     true,
     "img/Volcic.jpg",
     "https://www.sellerio.it/it/catalogo/Cavallo-Muro-Miei-Giorni-Europa-Est/-/15158"
+);
+addBookToLibrary(
+    "Vita del Confinato Luigi Spacal",
+    "Nicola Coccia",
+    204,
+    "started",
+    "img/Spacal.jpg",
+    "https://www.edizioniets.com/scheda.asp?n=9788846768742"
 );
 addBookToLibrary(
     "Quello che ho da dirvi",
