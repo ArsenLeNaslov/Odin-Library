@@ -527,7 +527,7 @@ addBookToLibrary(
     "Vita del Confinato Luigi Spacal",
     "Nicola Coccia",
     204,
-    "started",
+    true,
     "img/Spacal.jpg",
     "https://www.edizioniets.com/scheda.asp?n=9788846768742"
 );
@@ -548,12 +548,12 @@ addBookToLibrary(
     "https://www.ibs.it/necropoli-graphic-novel-libro-boris-pahor/e/9788893132558#cc-anchor-dettagli"
 );
 addBookToLibrary(
-    "Un Onomasticidio di Stato",
-    "Miro Tasso",
-    192,
-    true,
-    "img/Tasso.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/un-onomasticidio-di-stato/"
+    "Boris Pahor: Scrittore Senza Frontiere",
+    "Walter Chiereghin & Fulvio Senardi",
+    352,
+    "started",
+    "img/Pahor2.jpg",
+    "https://www.ts360srl.com/it/spletna-knjigarna/boris-pahor-scrittore-senza-frontiere/"
 );
 addBookToLibrary(
     "La Danza delle Ombre Senčni Ples",
@@ -564,14 +564,6 @@ addBookToLibrary(
     "https://www.ts360srl.com/it/spletna-knjigarna/la-danza-delle-ombre/"
 );
 addBookToLibrary(
-    "Il Giorno in cui finì l'Estate - V Elvisovi Sobi",
-    "Sebastian Pregelj",
-    308,
-    true,
-    "img/Elvisovi.jpg",
-    "https://www.bottegaerranteedizioni.it/product/il-giorno-in-cui-fini-lestate/"
-);
-addBookToLibrary(
     "Aspri Ritmi - Ostri Ritmi",
     "Srečko Kosovel",
     272,
@@ -580,20 +572,12 @@ addBookToLibrary(
     "https://www.ztt-est.it/sl/knjige/aspri-ritmi-ostri-ritmi"
 );
 addBookToLibrary(
-    "Il Figlio della Lupa",
-    "Francesco Tomada & Anton Špacapan Vončina",
-    333,
+    "Il servo jernej e il suo Diritto - Hlapec Jernej in njegova Pravica",
+    "Ivan Cankar",
+    190,
     false,
-    "img/Volkulja.png",
-    "https://thebookishexplorer.com/2025/03/04/anton-spacapan-voncina-e-francesco-tomada-il-figlio-della-lupa/"
-);
-addBookToLibrary(
-    "Boris Pahor: Scrittore Senza Frontiere",
-    "Walter Chiereghin & Fulvio Senardi",
-    352,
-    "started",
-    "img/Pahor2.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/boris-pahor-scrittore-senza-frontiere/"
+    "img/Cankar.jpg",
+    "https://www.ts360srl.com/spletna-knjigarna/hlapec-jernej-in-njegova-pravica/"
 );
 addBookToLibrary(
     "Questa Trieste",
@@ -602,6 +586,38 @@ addBookToLibrary(
     true,
     "img/Trst.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/questa-trieste/"
+);
+addBookToLibrary(
+    "Racconti Umoristici Triestini",
+    "Vladimir Bartol",
+    224,
+    "started",
+    "img/Humoreske.jpg",
+    "https://www.ibs.it/racconti-umoristici-triestini-libro-vladimir-bartol/e/9788862870986"
+);
+addBookToLibrary(
+    "Zora: Una storia di resistenza",
+    "Lida Turk",
+    245,
+    true,
+    "img/Zora.jpg",
+    "https://www.ztt-est.it/sl/knjige/zora"
+);
+addBookToLibrary(
+    "Un Onomasticidio di Stato",
+    "Miro Tasso",
+    192,
+    true,
+    "img/Tasso.jpg",
+    "https://www.ts360srl.com/it/spletna-knjigarna/un-onomasticidio-di-stato/"
+);
+addBookToLibrary(
+    "Il Giorno in cui finì l'Estate - V Elvisovi Sobi",
+    "Sebastian Pregelj",
+    308,
+    true,
+    "img/Elvisovi.jpg",
+    "https://www.bottegaerranteedizioni.it/product/il-giorno-in-cui-fini-lestate/"
 );
 addBookToLibrary(
     "Stanotte l'ho Vista - To noč sem jo Videl",
@@ -615,7 +631,7 @@ addBookToLibrary(
     "All'Ombra del Fico - Figa",
     "Goran Vojnović",
     463,
-    "started",
+    true,
     "img/Figa.jpg",
     "https://www.ts360srl.com/spletna-knjigarna/figa/"
 );
@@ -628,12 +644,12 @@ addBookToLibrary(
     "https://www.ts360srl.com/it/spletna-knjigarna/cefuri-raus/"
 );
 addBookToLibrary(
-    "Il servo jernej e il suo Diritto - Hlapec Jernej in njegova Pravica",
-    "Ivan Cankar",
-    190,
-    false,
-    "img/Cankar.jpg",
-    "https://www.ts360srl.com/spletna-knjigarna/hlapec-jernej-in-njegova-pravica/"
+    "Spomenik",
+    "Gianni Galleri",
+    200,
+    "started",
+    "img/Spomenik.jpg",
+    "https://www.bottegaerranteedizioni.it/spomenik/"
 );
 addBookToLibrary(
     "Itinerari a piedi nelle Valli del Natisone - Pešpoti po Nediških dolinah",
@@ -652,12 +668,12 @@ addBookToLibrary(
     "https://edizionialegre.it/product/la-farina-dei-partigiani/"
 );
 addBookToLibrary(
-    "Zora: Una storia di resistenza",
-    "Lida Turk",
-    245,
-    true,
-    "img/Zora.jpg",
-    "https://www.ztt-est.it/sl/knjige/zora"
+    "Il Figlio della Lupa",
+    "Francesco Tomada & Anton Špacapan Vončina",
+    333,
+    false,
+    "img/Volkulja.png",
+    "https://thebookishexplorer.com/2025/03/04/anton-spacapan-voncina-e-francesco-tomada-il-figlio-della-lupa/"
 );
 addBookToLibrary(
     "Monalogo de Molly",
@@ -682,6 +698,14 @@ addBookToLibrary(
     true,
     "img/Smonta.jpg",
     "https://bora.la/prodotto/la-smonta-la-prossima-una-vita-in-corriera/"
+);
+addBookToLibrary(
+    "RIP: Ridi in Pace",
+    "Davide Destradi",
+    176,
+    "started",
+    "img/Ridi.png",
+    "https://bora.la/prodotto/rip-ridi-in-pace/"
 );
 addBookToLibrary(
     "Casa mia, Casa mia",
