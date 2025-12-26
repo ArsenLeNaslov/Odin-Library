@@ -591,7 +591,7 @@ addBookToLibrary(
     "Racconti Umoristici Triestini",
     "Vladimir Bartol",
     224,
-    "started",
+    true,
     "img/Humoreske.jpg",
     "https://www.ibs.it/racconti-umoristici-triestini-libro-vladimir-bartol/e/9788862870986"
 );
@@ -647,7 +647,7 @@ addBookToLibrary(
     "Spomenik",
     "Gianni Galleri",
     200,
-    "started",
+    true,
     "img/Spomenik.jpg",
     "https://www.bottegaerranteedizioni.it/spomenik/"
 );
