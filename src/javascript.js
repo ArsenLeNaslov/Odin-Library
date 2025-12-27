@@ -484,6 +484,14 @@ addBookToLibrary(
     "https://www.goodreads.com/book/show/61043.Trieste_and_The_Meaning_of_Nowhere"
 );
 addBookToLibrary(
+    "Storia di Trieste",
+    "Nicolò GIraldi",
+    340,
+    "started",
+    "img/Zgodovina.png",
+    "https://bibliotecadellimmagine.it/prodotto/storia-di-trieste-dalle-origini-ai-giorni-nostri/"
+);
+addBookToLibrary(
     "Serbi Croati Sloveni",
     "Jože Pirjevec",
     236,
@@ -703,7 +711,7 @@ addBookToLibrary(
     "RIP: Ridi in Pace",
     "Davide Destradi",
     176,
-    "started",
+    true,
     "img/Ridi.png",
     "https://bora.la/prodotto/rip-ridi-in-pace/"
 );
