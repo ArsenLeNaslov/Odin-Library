@@ -487,7 +487,7 @@ addBookToLibrary(
     "Storia di Trieste",
     "Nicolò GIraldi",
     340,
-    "started",
+    true,
     "img/Zgodovina.png",
     "https://bibliotecadellimmagine.it/prodotto/storia-di-trieste-dalle-origini-ai-giorni-nostri/"
 );
