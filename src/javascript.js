@@ -476,6 +476,14 @@ addBookToLibrary(
     "https://www.noahcharney.com/Books/Bledology"
 );
 addBookToLibrary(
+    "Dove si incontrano le Acque",
+    "Jean-Arnault Dérens & Laurent Geslin",
+    416,
+    false,
+    "img/Acque.png",
+    "https://www.kellereditore.it/2025/05/27/doce-si-incontrano-le-acque%c2%b7-j-a-derens-e-l-geslin/"
+);
+addBookToLibrary(
     "Trieste and the Meaning of Nowhere",
     "Jan Morris",
     188,
@@ -485,7 +493,7 @@ addBookToLibrary(
 );
 addBookToLibrary(
     "Storia di Trieste",
-    "Nicolò GIraldi",
+    "Nicolò Giraldi",
     340,
     true,
     "img/Zgodovina.png",
@@ -516,12 +524,44 @@ addBookToLibrary(
     "https://www.ts360srl.com/it/spletna-knjigarna/il-narodni-dom-di-trieste-1904-1920/"
 );
 addBookToLibrary(
+    "Borba",
+    "Milan Pahor",
+    286,
+    false,
+    "img/Borba.jpg",
+    "https://www.ztt-est.it/it/libri/borba"
+);
+addBookToLibrary(
+    "Gorizia Nova Gorica",
+    "Andrea Bellavite",
+    184,
+    true,
+    "img/2Gorica.jpg",
+    "https://www.ztt-est.it/it/libri/gorizia-nova-gorica-1"
+);
+addBookToLibrary(
+    "Nova Gorica",
+    "Blaž Kosovel",
+    148,
+    true,
+    "img/Nova Gorica.jpg",
+    "https://buca.si/knjigarna/knjige-v-tujih-jezikih/english-anglescina/nova-gorica-a-new-town-on-the-border/"
+);
+addBookToLibrary(
     "La Fiamma Nera",
     "Ivan Smiljanić & Zoran Smiljanić",
     79,
     false,
     "img/Plamen.jpg",
     "https://www.ibs.it/fiamma-nera-rogo-del-narodni-libro-ivan-smiljanic-zoran-smiljanic/e/9788899007898#cc-anchor-dettagli"
+);
+addBookToLibrary(
+    "Solo perché italiani?",
+    "Sandi Volk",
+    360,
+    false,
+    "img/Solo.png",
+    "https://shop.kappavu.it/KV/prodotto/solo-perche-italiani/"
 );
 addBookToLibrary(
     "A cavallo del muro",
@@ -604,6 +644,14 @@ addBookToLibrary(
     "https://www.ibs.it/racconti-umoristici-triestini-libro-vladimir-bartol/e/9788862870986"
 );
 addBookToLibrary(
+    "I Fantasmi di Trieste",
+    "Dušan Jelinčič",
+    136,
+    true,
+    "img/Duhovi.jpg",
+    "https://www.bottegaerranteedizioni.it/product/i-fantasmi-di-trieste/"
+);
+addBookToLibrary(
     "Zora: Una storia di resistenza",
     "Lida Turk",
     245,
@@ -612,12 +660,36 @@ addBookToLibrary(
     "https://www.ztt-est.it/sl/knjige/zora"
 );
 addBookToLibrary(
+    "Slovenščina v Italiji",
+    "Matejka Grgič",
+    236,
+    true,
+    "img/Slo.jpg",
+    "https://www.slori.org/publikacije/slovenscina-v-italiji/"
+);
+addBookToLibrary(
+    "Slovenka",
+    "Marta Verginella",
+    178,
+    false,
+    "img/Slovenka.jpg",
+    "https://www.vitaactivaeditoria.it/2019/04/25/slovenka-il-primo-giornale-femminile-sloveno/"
+);
+addBookToLibrary(
     "Un Onomasticidio di Stato",
     "Miro Tasso",
     192,
     true,
     "img/Tasso.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/un-onomasticidio-di-stato/"
+);
+addBookToLibrary(
+    "The Risiera concentration camp",
+    "Tristano Matta",
+    90,
+    true,
+    "img/Sabba.jpg",
+    "https://battellostampatore.com/libro/the-risiera-concentration-camp/"
 );
 addBookToLibrary(
     "Il Giorno in cui finì l'Estate - V Elvisovi Sobi",
@@ -746,6 +818,14 @@ addBookToLibrary(
     true,
     "img/Triestewood.jpg",
     "https://bora.la/prodotto/cera-una-volta-a-triestewood/"
+);
+addBookToLibrary(
+    "Mestieri triestini di una volta",
+    "Lino Monaco",
+    92,
+    false,
+    "img/Mestieri.png",
+    "https://bora.la/prodotto/mestieri-triestini-di-una-volta/"
 );
 addBookToLibrary(
     "Troppo triestini",
