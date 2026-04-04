@@ -476,6 +476,14 @@ addBookToLibrary(
     "https://www.noahcharney.com/Books/Bledology"
 );
 addBookToLibrary(
+    "Eternal Architect",
+    "Noah Charney",
+    256,
+    false,
+    "img/Plečnik.jpg",
+    "https://mgml.si/en/plecnik-house/publications/3/noah-charney-eternal-architect/"
+);
+addBookToLibrary(
     "Dove si incontrano le Acque",
     "Jean-Arnault Dérens & Laurent Geslin",
     416,
@@ -528,7 +536,7 @@ addBookToLibrary(
     "Milan Pahor",
     286,
     false,
-    "img/Borba.jpg",
+    "img/Borba.png",
     "https://www.ztt-est.it/it/libri/borba"
 );
 addBookToLibrary(
@@ -536,7 +544,7 @@ addBookToLibrary(
     "Andrea Bellavite",
     184,
     true,
-    "img/2Gorica.jpg",
+    "img/2Gorica.png",
     "https://www.ztt-est.it/it/libri/gorizia-nova-gorica-1"
 );
 addBookToLibrary(
@@ -544,7 +552,7 @@ addBookToLibrary(
     "Blaž Kosovel",
     148,
     true,
-    "img/Nova Gorica.jpg",
+    "img/Nova Gorica.png",
     "https://buca.si/knjigarna/knjige-v-tujih-jezikih/english-anglescina/nova-gorica-a-new-town-on-the-border/"
 );
 addBookToLibrary(
@@ -626,6 +634,22 @@ addBookToLibrary(
     false,
     "img/Cankar.jpg",
     "https://www.ts360srl.com/spletna-knjigarna/hlapec-jernej-in-njegova-pravica/"
+);
+addBookToLibrary(
+    "Images from Dreams",
+    "Ivan Cankar",
+    315,
+    false,
+    "img/Sanje.png",
+    "https://beletrinadigital.si/e-knjiga/images-from-dreams"
+);
+addBookToLibrary(
+    "Machine, do you know your duty?",
+    "Esad Babačić",
+    192,
+    false,
+    "img/Mašina.jpg",
+    "https://litteraeslovenicae.si/books/2022-2025/esad-babacic-machine-do-you-know-your-duty/"
 );
 addBookToLibrary(
     "Questa Trieste",
