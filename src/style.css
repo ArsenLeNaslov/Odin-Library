@@ -201,6 +201,16 @@ i {
     font-family: 'Zen Dots', cursive;
     color: cyan;
     text-shadow: 2px 2px 6px blue;
+    margin-bottom: 0.5em;
+}
+
+.library-heading2 {
+    font-size: var(--fs-small);
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    color: transpare;
+    text-shadow: 2px 2px 6px blue;
+    margin-bottom: 0.5em;
 }
 
 .collection-details {
