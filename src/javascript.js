@@ -478,10 +478,18 @@ addBookToLibrary(
 addBookToLibrary(
     "Eternal Architect",
     "Noah Charney",
-    256,
+    254,
     false,
     "img/Plečnik.jpg",
-    "https://mgml.si/en/plecnik-house/publications/3/noah-charney-eternal-architect/"
+    "https://shop.mgml.si/en/product/noah-charney-eternal-architect/"
+);
+addBookToLibrary(
+    "Plečnik.",
+    "Blaž Vurnik & Zoran Smiljanić",
+    140,
+    false,
+    "img/2Plečnik.png", 
+    "https://shop.mgml.si/product/angleski-strip-plecnik-in-pika/"
 );
 addBookToLibrary(
     "Dove si incontrano le Acque",
@@ -562,6 +570,14 @@ addBookToLibrary(
     false,
     "img/Plamen.jpg",
     "https://www.ibs.it/fiamma-nera-rogo-del-narodni-libro-ivan-smiljanic-zoran-smiljanic/e/9788899007898#cc-anchor-dettagli"
+);
+addBookToLibrary(
+    "Metamorfosi Etniche",
+    "Piero Purini",
+    348,
+    false,
+    "img/Metamorfosi.jpg",
+    "https://shop.kappavu.it/KV/prodotto/metamorfosi-etniche/"
 );
 addBookToLibrary(
     "Solo perché italiani?",
@@ -692,6 +708,14 @@ addBookToLibrary(
     "https://www.slori.org/publikacije/slovenscina-v-italiji/"
 );
 addBookToLibrary(
+    "Slovene-Italian Relations 1880–1956",
+    "Report of the Slovene-Italian Historical and Cultural Commission",
+    120,
+    false,
+    "img/Zgodovinsko-Kulturne Komisije.png",
+    "hhttps://www.gov.si/en/news/2026-02-13-reprint-of-the-book-slovene-italian-relations-18801956-report-of-the-slovene-italian-historical-and-cultural-commission/"
+);
+addBookToLibrary(
     "Slovenka",
     "Marta Verginella",
     178,
@@ -714,6 +738,14 @@ addBookToLibrary(
     true,
     "img/Sabba.jpg",
     "https://battellostampatore.com/libro/the-risiera-concentration-camp/"
+);
+addBookToLibrary(
+    "Un Ufficiale Asburgico tra fedeltà e Patria slovena",
+    "Stanislav Dekleva",
+    192,
+    false,
+    "img/Stanislav Dekleva.png",
+    "https://www.gasparieditore.it/un-ufficiale-asburgico-tra-fedelta-e-patria-slovena"
 );
 addBookToLibrary(
     "Il Giorno in cui finì l'Estate - V Elvisovi Sobi",
