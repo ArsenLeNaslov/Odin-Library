@@ -583,7 +583,7 @@ addBookToLibrary(
     "Solo perché italiani?",
     "Sandi Volk",
     360,
-    false,
+    "started",
     "img/Solo.png",
     "https://shop.kappavu.it/KV/prodotto/solo-perche-italiani/"
 );
