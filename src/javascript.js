@@ -487,7 +487,7 @@ addBookToLibrary(
     "Plečnik.",
     "Blaž Vurnik & Zoran Smiljanić",
     140,
-    false,
+    "started",
     "img/2Plečnik.png", 
     "https://shop.mgml.si/product/angleski-strip-plecnik-in-pika/"
 );
@@ -583,7 +583,7 @@ addBookToLibrary(
     "Solo perché italiani?",
     "Sandi Volk",
     360,
-    "started",
+    true,
     "img/Solo.png",
     "https://shop.kappavu.it/KV/prodotto/solo-perche-italiani/"
 );
@@ -647,7 +647,7 @@ addBookToLibrary(
     "Il servo jernej e il suo Diritto - Hlapec Jernej in njegova Pravica",
     "Ivan Cankar",
     190,
-    false,
+    true,
     "img/Cankar.jpg",
     "https://www.ts360srl.com/spletna-knjigarna/hlapec-jernej-in-njegova-pravica/"
 );
@@ -743,7 +743,7 @@ addBookToLibrary(
     "Un Ufficiale Asburgico tra fedeltà e Patria slovena",
     "Stanislav Dekleva",
     192,
-    false,
+    "started",
     "img/Stanislav Dekleva.png",
     "https://www.gasparieditore.it/un-ufficiale-asburgico-tra-fedelta-e-patria-slovena"
 );
