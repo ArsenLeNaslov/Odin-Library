@@ -487,7 +487,7 @@ addBookToLibrary(
     "Plečnik.",
     "Blaž Vurnik & Zoran Smiljanić",
     140,
-    "started",
+    ,true,
     "img/2Plečnik.png", 
     "https://shop.mgml.si/product/angleski-strip-plecnik-in-pika/"
 );
@@ -663,7 +663,7 @@ addBookToLibrary(
     "Machine, do you know your duty?",
     "Esad Babačić",
     192,
-    false,
+    "sarted",
     "img/Mašina.jpg",
     "https://litteraeslovenicae.si/books/2022-2025/esad-babacic-machine-do-you-know-your-duty/"
 );
@@ -743,7 +743,7 @@ addBookToLibrary(
     "Un Ufficiale Asburgico tra fedeltà e Patria slovena",
     "Stanislav Dekleva",
     192,
-    "started",
+    true,
     "img/Stanislav Dekleva.png",
     "https://www.gasparieditore.it/un-ufficiale-asburgico-tra-fedelta-e-patria-slovena"
 );
