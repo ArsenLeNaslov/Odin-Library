@@ -663,7 +663,7 @@ addBookToLibrary(
     "Machine, do you know your duty?",
     "Esad Babačić",
     192,
-    "sarted",
+    true,
     "img/Mašina.jpg",
     "https://litteraeslovenicae.si/books/2022-2025/esad-babacic-machine-do-you-know-your-duty/"
 );
