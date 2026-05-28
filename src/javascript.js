@@ -487,7 +487,7 @@ addBookToLibrary(
     "Plečnik.",
     "Blaž Vurnik & Zoran Smiljanić",
     140,
-    ,true,
+    true,
     "img/2Plečnik.png", 
     "https://shop.mgml.si/product/angleski-strip-plecnik-in-pika/"
 );
