@@ -632,7 +632,7 @@ addBookToLibrary(
     "Boris Pahor",
     166,
     true,
-    "Lett_Slo.png",
+    "img/Lett_Slo.png",
     "https://www.mladika.com/izdelek/letteratura-slovena-del-litorale-vademecum/"
 );
 addBookToLibrary(
