@@ -822,7 +822,7 @@ addBookToLibrary(
 addBookToLibrary(
     "Autopsie di Famigia",
     "Anja Mugerli",
-    333,
+    116,
     "started",
     "img/Mugerli.jpg",
     "https://www.infinitoedizioni.it/prodotto/autopsie-di-famiglia/"
