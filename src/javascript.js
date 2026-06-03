@@ -628,6 +628,14 @@ addBookToLibrary(
     "https://www.ts360srl.com/it/spletna-knjigarna/boris-pahor-scrittore-senza-frontiere/"
 );
 addBookToLibrary(
+    "Letteratura Slovena del Litorale",
+    "Boris Pahor",
+    166,
+    true,
+    "Lett_Slo.png",
+    "https://www.mladika.com/izdelek/letteratura-slovena-del-litorale-vademecum/"
+);
+addBookToLibrary(
     "La Danza delle Ombre Senčni Ples",
     "Alojz Rebula",
     352,
@@ -810,6 +818,14 @@ addBookToLibrary(
     false,
     "img/Volkulja.png",
     "https://thebookishexplorer.com/2025/03/04/anton-spacapan-voncina-e-francesco-tomada-il-figlio-della-lupa/"
+);
+addBookToLibrary(
+    "Autopsie di Famigia",
+    "Anja Mugerli",
+    333,
+    "started",
+    "img/Mugerli.jpg",
+    "https://www.infinitoedizioni.it/prodotto/autopsie-di-famiglia/"
 );
 addBookToLibrary(
     "Monalogo de Molly",
