@@ -495,7 +495,7 @@ addBookToLibrary(
     "Dove si incontrano le Acque",
     "Jean-Arnault Dérens & Laurent Geslin",
     416,
-    false,
+    "started",
     "img/Acque.png",
     "https://www.kellereditore.it/2025/05/27/doce-si-incontrano-le-acque%c2%b7-j-a-derens-e-l-geslin/"
 );
@@ -623,7 +623,7 @@ addBookToLibrary(
     "Boris Pahor: Scrittore Senza Frontiere",
     "Walter Chiereghin & Fulvio Senardi",
     352,
-    "started",
+    true,
     "img/Pahor2.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/boris-pahor-scrittore-senza-frontiere/"
 );
