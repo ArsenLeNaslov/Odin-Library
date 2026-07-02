@@ -495,7 +495,7 @@ addBookToLibrary(
     "Dove si incontrano le Acque",
     "Jean-Arnault Dérens & Laurent Geslin",
     416,
-    "started",
+    true,
     "img/Acque.png",
     "https://www.kellereditore.it/2025/05/27/doce-si-incontrano-le-acque%c2%b7-j-a-derens-e-l-geslin/"
 );
