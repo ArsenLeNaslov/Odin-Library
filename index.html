@@ -58,6 +58,36 @@
                             <input type="url" name="link" id="link" placeholder="https://example.com" />
                         </div>
                     </div>
+                    <div class="new-genre">
+                        <label for="genre">Genre:</label>
+                        <select name="genre" id="genre">
+                            <option value="unclassified">Unclassified</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="anthology">Anthology</option>
+                            <option value="biography">Biography</option>
+                            <option value="contemporary">Contemporary</option>
+                            <option value="crime">Crime</option>
+                            <option value="dystopian">Dystopian</option>
+                            <option value="essay">Essay</option>
+                            <option value="fantasy">Fantasy</option>
+                            <option value="folklore">Folklore</option>
+                            <option value="graphic_novel">Graphic Novel</option>
+                            <option value="historical">Historical</option>
+                            <option value="historical_fiction">Historical Fiction</option>
+                            <option value="horror">Horror</option>
+                            <option value="humor">Humor</option>
+                            <option value="memoir">Memoir</option>
+                            <option value="mystery">Mystery</option>
+                            <option value="mythology">Mythology</option>
+                            <option value="poetry">Poetry</option>
+                            <option value="non_fiction">Non-Fiction</option>
+                            <option value="romance">Romance</option>
+                            <option value="science_fiction">Science Fiction</option>
+                            <option value="travel">Travel</option>
+                            <option value="thriller">Thriller</option>
+                            <option value="war">War</option>
+                        </select>
+                    </div>
                     <div class="dialog-buttons">
                         <button value="cancel" formmethod="dialog" formnovalidate>Cancel</button>
                         <button id="confirm" value="confirm">Confirm</button>
@@ -69,14 +99,46 @@
                     <h2 class="library-heading">Your Collection</h2>
                     <h3 class="library-heading2">Minljiv si, le tvoja dela so tvoj spomin</h3>
                     <h3 class="library-heading2">You are transient, only your work preserves your memory</h3>
-                        <div class="filter-container" style="text-align:center; margin-bottom:1em;">
-                            <label for="filter-read" style="margin-top:1.5em; display:inline-block; font-weight:bold;">Show: </label>
-                            <select id="filter-read" style="margin-top:1.5em; background:transparent;">
-                                <option value="all">All Books</option>
-                                <option value="read">Read</option>
-                            <option value="started">Started</option>
-                            <option value="not-read">Not Read</option>
-                            </select>
+                        <div style="display:flex; justify-content:center; gap:1em; flex-wrap:wrap; margin-bottom:1em;">
+                            <div class="filter-container" style="text-align:center; margin-top:1.5em;">
+                                <label for="filter-status" style="display:inline-block; font-weight:bold;">Show: </label>
+                                <select id="filter-status" style="background:transparent;">
+                                    <option value="all">All Books</option>
+                                    <option value="read">Read</option>
+                                    <option value="started">Started</option>
+                                    <option value="not-read">Not Read</option>
+                                </select>
+                            </div>
+                            <div class="filter-container" style="text-align:center; margin-top:1.5em;">
+                                <label for="filter-genre" style="display:inline-block; font-weight:bold;">Genre: </label>
+                                <select id="filter-genre" style="background:transparent;">
+                                    <option value="all_genres">All Genres</option>
+                                    <option value="adventure">Adventure</option>
+                                    <option value="anthology">Anthology</option>
+                                    <option value="biography">Biography</option>
+                                    <option value="contemporary">Contemporary</option>
+                                    <option value="crime">Crime</option>
+                                    <option value="dystopian">Dystopian</option>
+                                    <option value="essay">Essay</option>
+                                    <option value="fantasy">Fantasy</option>
+                                    <option value="folklore">Folklore</option>
+                                    <option value="graphic_novel">Graphic Novel</option>
+                                    <option value="historical_fiction">Historical Fiction</option>
+                                    <option value="horror">Horror</option>
+                                    <option value="humor">Humor</option>
+                                    <option value="memoir">Memoir</option>
+                                    <option value="mystery">Mystery</option>
+                                    <option value="mythology">Mythology</option>
+                                    <option value="poetry">Poetry</option>
+                                    <option value="non_fiction">Non-Fiction</option>
+                                    <option value="romance">Romance</option>
+                                    <option value="science_fiction">Science Fiction</option>
+                                    <option value="travel">Travel</option>
+                                    <option value="thriller">Thriller</option>
+                                    <option value="war">War</option>
+                                    <option value="unclassified">Unclassified</option>
+                                </select>
+                            </div>
                         </div>
                     <div class="collection-details">
                         <p class="book-count"> books in your Library</p>

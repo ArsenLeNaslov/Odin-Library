@@ -291,6 +291,16 @@ i {
     margin-bottom: 0.5em;
 }
 
+.book-pages {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.book-genre {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
 .book-buttons {
     display: flex;
     justify-content: space-evenly;

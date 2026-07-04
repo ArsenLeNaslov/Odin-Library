@@ -2,29 +2,73 @@
 const newLink = document.querySelector("#link");
 
 // The Odin Project - Project: Library
-const filterReadSelect = document.getElementById('filter-read');
-if (filterReadSelect) {
-    filterReadSelect.addEventListener('change', () => {
-        filterBooksByStatus(filterReadSelect.value);
-    });
+const filterStatusSelect = document.getElementById('filter-status');
+const filterGenreSelect = document.getElementById('filter-genre');
+
+if (filterStatusSelect) {
+    filterStatusSelect.addEventListener('change', applyBookFilters);
 }
 
-function filterBooksByStatus(status) {
+if (filterGenreSelect) {
+    filterGenreSelect.addEventListener('change', applyBookFilters);
+}
 
-// Book Filtering Logic
-    // Remove all book elements
+function normalizeGenres(genre) {
+    if (Array.isArray(genre)) {
+        return genre.filter((value) => typeof value === 'string' && value.trim() !== '').map((value) => value.trim());
+    }
+
+    if (typeof genre === 'string' && genre.trim() !== '') {
+        return [genre.trim()];
+    }
+
+    return ['unclassified'];
+}
+
+function formatGenreValue(genre) {
+    const genres = normalizeGenres(genre);
+
+    if (genres.length === 0 || genres.every((value) => !value || value === 'unclassified')) {
+        return 'Unclassified';
+    }
+
+    return genres
+        .map((value) => value.replace(/_/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase()))
+        .join(', ');
+}
+
+function getFilteredBooks(status = 'all', selectedGenres = []) {
+    let filtered = library;
+
+    if (status === 'read') {
+        filtered = filtered.filter(book => book.status === 'read');
+    } else if (status === 'started') {
+        filtered = filtered.filter(book => book.status === 'started');
+    } else if (status === 'not-read') {
+        filtered = filtered.filter(book => book.status === 'not-read');
+    }
+
+    if (selectedGenres.length > 0 && !selectedGenres.includes('all_genres')) {
+        filtered = filtered.filter((book) => {
+            const bookGenres = normalizeGenres(book.genre);
+            return selectedGenres.some((genre) => bookGenres.includes(genre));
+        });
+    }
+
+    return filtered;
+}
+
+function applyBookFilters() {
+    const statusValue = filterStatusSelect ? filterStatusSelect.value : 'all';
+    const selectedGenres = filterGenreSelect && filterGenreSelect.value !== 'all_genres'
+        ? [filterGenreSelect.value]
+        : [];
+
     while (booksContainer.firstChild) {
         booksContainer.removeChild(booksContainer.firstChild);
     }
-    // Filter and display books
-    let filtered = library;
-    if (status === 'read') {
-        filtered = library.filter(book => book.status === 'read');
-    } else if (status === 'started') {
-        filtered = library.filter(book => book.status === 'started');
-    } else if (status === 'not-read') {
-        filtered = library.filter(book => book.status === 'not-read');
-    }
+
+    const filtered = getFilteredBooks(statusValue, selectedGenres);
     filtered.forEach(book => createNewBookElement(book));
     updateBookCount(filtered.length);
 }
@@ -40,6 +84,7 @@ const newTitle = document.querySelector("#title");
 const newAuthor = document.querySelector("#author");
 const newPages = document.querySelector("#pages");
 const newRead = document.querySelector("#read");
+const newGenre = document.querySelector("#genre");
 const newCover = document.querySelector("#cover");
 const bookCount = document.querySelector(".book-count");
 const noImgPath = "img/no-image.svg";
@@ -64,11 +109,14 @@ function showModalDialog(book) {
 // Modal Dialog Logic
     if (book === undefined) {
         newBookForm.reset();
+        newGenre.value = 'unclassified';
     } else {
         newTitle.value = book.title;
         newAuthor.value = book.author;
         newPages.value = String(book.pages);
-            newRead.value = book.status === 'read' ? 'yes' : (book.status === 'started' ? 'started' : 'no');
+        newRead.value = book.status === 'read' ? 'yes' : (book.status === 'started' ? 'started' : 'no');
+        const bookGenres = normalizeGenres(book.genre);
+        newGenre.value = bookGenres[0] || 'unclassified';
         newCover.value = book.cover;
         newLink.value = book.link || "";
     }
@@ -84,15 +132,22 @@ function editExistingBook() {
     bookObj.pages = Number(newPages.value);
     bookObj.read = newRead.value === "yes";
     bookObj.status = newRead.value === "yes" ? 'read' : (newRead.value === "started" ? 'started' : 'not-read');
+    bookObj.genre = newGenre.value ? [newGenre.value] : ['unclassified'];
     bookObj.cover = newCover.value;
     bookObj.link = newLink.value;
 
     const bookElem = document.querySelector(`[data-id="${bookObj.id}"]`);
-    bookElem.querySelector(".book-title").textContent = bookObj.title;
-    bookElem.querySelector(".book-author").textContent = bookObj.author;
-    bookElem.querySelector(".book-pages").textContent = `${bookObj.pages} pages`;
-    bookElem.querySelector(".book-read").textContent = bookObj.read ? "Read" : "Not read";
-    bookElem.querySelector(".book-cover-art img").setAttribute("src", bookObj.cover);
+    if (bookElem) {
+        bookElem.querySelector(".book-title").textContent = bookObj.title;
+        bookElem.querySelector(".book-author").textContent = bookObj.author;
+        bookElem.querySelector(".book-pages").textContent = `${bookObj.pages} pages`;
+        bookElem.querySelector(".book-read").textContent = bookObj.status === 'read' ? "Read" : (bookObj.status === 'started' ? "Started" : "Not Read");
+        const genreElem = bookElem.querySelector(".book-genre");
+        if (genreElem) {
+            genreElem.textContent = `Genre: ${formatGenreValue(bookObj.genre)}`;
+        }
+        bookElem.querySelector(".book-cover-art img").setAttribute("src", bookObj.cover);
+    }
 }
 
 function createNewBook() {
@@ -100,13 +155,15 @@ function createNewBook() {
 // Create Book Logic
     let readValue;
     readValue = newRead.value === "yes" ? true : (newRead.value === "started" ? "started" : false);
+    const selectedGenres = newGenre.value ? [newGenre.value] : ['unclassified'];
     const newBook = addBookToLibrary(
         newTitle.value,
         newAuthor.value,
         Number(newPages.value),
         readValue,
         newCover.value,
-        newLink.value
+        newLink.value,
+        selectedGenres.length > 0 ? selectedGenres : ["unclassified"]
     );
     if (newBook === null) {
         alert("We couldn't add new book. Please ensure all required fields are filled out!");
@@ -115,7 +172,7 @@ function createNewBook() {
     createNewBookElement(newBook);
 }
 
-function Book(title, author, pages, read, id, cover, link) {
+function Book(title, author, pages, read, id, cover, link, genre = "unclassified") {
 
 // Book Class & Methods
     if (!new.target) {
@@ -137,6 +194,7 @@ function Book(title, author, pages, read, id, cover, link) {
     this.id = id;
     this.cover = cover;
     this.link = link;
+    this.genre = normalizeGenres(genre);
 }
 
 Book.prototype.toggleRead = function () {
@@ -154,7 +212,7 @@ Book.prototype.toggleRead = function () {
         this.status === 'read' ? 'Read' : (this.status === 'started' ? 'Started' : 'Not Read');
 };
 
-function addBookToLibrary(title, author, pages, read, cover, link) {
+function addBookToLibrary(title, author, pages, read, cover, link, genre = "unclassified") {
 
 // Add Book to Library
     if (
@@ -171,7 +229,7 @@ function addBookToLibrary(title, author, pages, read, cover, link) {
     }
 
     const id = crypto.randomUUID();
-    const book = new Book(title, author, pages, read, id, cover, link);
+    const book = new Book(title, author, pages, read, id, cover, link, genre);
     library.push(book);
     return book;
 }
@@ -223,6 +281,11 @@ function createNewBookElement(book) {
     pages.textContent = `${book.pages} pages`;
     info.appendChild(pages);
 
+    const genre = document.createElement("p");
+    genre.classList.add("book-genre");
+    genre.textContent = `Genre: ${formatGenreValue(book.genre)}`;
+    info.appendChild(genre);
+
     const buttons = document.createElement("div");
     buttons.classList.add("book-buttons");
 
@@ -267,7 +330,13 @@ function deleteBook(book) {
     const id = book.getAttribute("data-id");
     library = library.filter((book) => id !== book.id); // remove object from array
     book.remove(); // remove element from page
-    updateBookCount();
+
+    const statusValue = filterStatusSelect ? filterStatusSelect.value : 'all';
+    const selectedGenres = filterGenreSelect && filterGenreSelect.value !== 'all_genres'
+        ? [filterGenreSelect.value]
+        : [];
+    const filtered = getFilteredBooks(statusValue, selectedGenres);
+    updateBookCount(filtered.length);
 }
 
 function displayLibrary() {
@@ -297,7 +366,8 @@ addBookToLibrary(
     240,
     false,
     "img/Glittering.jpg",
-    "https://www.professorsbookshelf.com/books/glittering-plain"
+    "https://www.professorsbookshelf.com/books/glittering-plain",
+    ["fantasy","folklore"]
 );
 addBookToLibrary(
     "The Book of Wonder & The Last Book of Wonder",
@@ -305,7 +375,8 @@ addBookToLibrary(
     298,
     true,
     "img/Book_of_Wonder.jpg",
-    "https://www.professorsbookshelf.com/books/book-of-wonder"
+    "https://www.professorsbookshelf.com/books/book-of-wonder",
+    ["fantasy","folklore"]
 );
 addBookToLibrary(
     "The King of Elfland's Daughter",
@@ -345,7 +416,8 @@ addBookToLibrary(
     224,
     true,
     "img/Ghosts_Goblins.jpg",
-    "https://www.goodreads.com/book/show/60764312-of-ghosts-and-goblins"
+    "https://www.goodreads.com/book/show/60764312-of-ghosts-and-goblins",
+    ["fantasy","folklore","mythology","horror"]
 );
 addBookToLibrary(
     "The Complete Short Stories of",
@@ -353,7 +425,8 @@ addBookToLibrary(
     496,
     true,
     "img/Bierce.jpg",
-    "https://www.nebraskapress.unl.edu/bison-books/9780803260719/the-complete-short-stories-of-ambrose-bierce/"
+    "https://www.nebraskapress.unl.edu/bison-books/9780803260719/the-complete-short-stories-of-ambrose-bierce/",
+    ["historical_fiction","horror","mystery", "war"]
 );
 addBookToLibrary(
     "Fahrenheit 451",
@@ -361,7 +434,8 @@ addBookToLibrary(
     256,
     true,
     "img/Fahrenheit451.jpg",
-    "https://en.wikipedia.org/wiki/Fahrenheit_451"
+    "https://en.wikipedia.org/wiki/Fahrenheit_451",
+    ["dystopian","science_fiction"]
 );
 addBookToLibrary(
     "Do Androids Dream Of Electric Sheep?",
