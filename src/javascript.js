@@ -364,12 +364,36 @@ addBookToLibrary(
     "https://en.wikipedia.org/wiki/Fahrenheit_451"
 );
 addBookToLibrary(
+    "Do Androids Dream Of Electric Sheep?",
+    "Philip K. Dick",
+    193,
+    true,
+    "img/androids.png",
+    "https://store.gollancz.co.uk/products/do-androids-dream-of-electric-sheep"
+);
+addBookToLibrary(
+    "A Scanner Darkly",
+    "Philip K. Dick",
+    219,
+    "started",
+    "img/scanner.png",
+    "https://store.gollancz.co.uk/products/a-scanner-darkly?_pos=1&_sid=f761b26a6&_ss=r"
+);
+addBookToLibrary(
     "The Island of Doctor Moreau",
     "H.G. Wells",
     193,
     true,
     "img/Moreau.png",
     "https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau"
+);
+addBookToLibrary(
+    "Ringworld",
+    "Larry Niven",
+    342,
+    true,
+    "img/Ringworld.png",
+    "https://store.gollancz.co.uk/products/ringworld?_pos=1&_psq=ringworld&_ss=e&_v=1.0"
 );
 addBookToLibrary(
     "The New Annotated H.P. Lovecraft",
@@ -410,14 +434,6 @@ addBookToLibrary(
     true,
     "img/Saramago.jpg",
     "https://www.josesaramago.org/en/book/blindness-essay/"
-);
-addBookToLibrary(
-    "Ringworld",
-    "Larry Niven",
-    342,
-    true,
-    "img/Ringworld.png",
-    "https://www.worldswithoutend.com/novel.asp?ID=18"
 );
 addBookToLibrary(
     "The Unaccountability Machine",
@@ -706,6 +722,14 @@ addBookToLibrary(
     true,
     "img/Zora.jpg",
     "https://www.ztt-est.it/sl/knjige/zora"
+);
+addBookToLibrary(
+    "Qui io non conto",
+    "Anna Dietzel",
+    152,
+    true,
+    "img/qui.png",
+    "https://www.beccogiallo.it/negozio/graphic-journalism/qui-io-non-conto/"
 );
 addBookToLibrary(
     "Slovenščina v Italiji",
