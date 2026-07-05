@@ -7,6 +7,7 @@ Live preview: [Odin's Cosmic Library](https://arsenlenaslov.github.io/Odin-Libra
 # Details
 - Modal Dialog to add new books to the list.
 - Drop-down menu to filter between Read, Started, and Not Read books.
+- Drop-down menu to filter through literary genres.
 - Favicon from Icons8, creative common license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - Background image from Pixabay, free for use under the website content license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 -   ["Museo"](https://www.cufonfonts.com/font/museo) & ["ZenDots](https://www.cufonfonts.com/font/zen-dots) fonts are free to use under the [Open Font License](https://openfontlicense.org/)
