@@ -1,7 +1,7 @@
 // DOM Elements & Globals
 const newLink = document.querySelector("#link");
 
-// The Odin Project - Project: Library
+// The Odin Project - Project: Library - Boook's status and genre contasts
 const filterStatusSelect = document.getElementById('filter-status');
 const filterGenreSelect = document.getElementById('filter-genre');
 
@@ -384,7 +384,8 @@ addBookToLibrary(
     240,
     true,
     "img/King_of_Elfland.png",
-    "https://en.wikipedia.org/wiki/The_King_of_Elfland%27s_Daughter"
+    "https://en.wikipedia.org/wiki/The_King_of_Elfland%27s_Daughter",
+    ["fantasy","folklore"]
 );
 addBookToLibrary(
     "Time and the Gods",
@@ -392,7 +393,8 @@ addBookToLibrary(
     584,
     false,
     "img/Time.jpg",
-    "https://www.goodreads.com/es/book/show/757018.Time_and_the_Gods"
+    "https://www.goodreads.com/es/book/show/757018.Time_and_the_Gods",
+    ["fantasy","folklore", "mythology","poetry"]
 );
 addBookToLibrary(
     "Two Bottles of Relish",
@@ -400,7 +402,8 @@ addBookToLibrary(
     234,
     true,
     "img/2Bottles.png",
-    "https://www.ebsco.com/research-starters/literature-and-writing/two-bottles-relish-lord-dunsany"
+    "https://www.ebsco.com/research-starters/literature-and-writing/two-bottles-relish-lord-dunsany",
+    ["adventure","anthology","crime","horror","thriller"]
 );
 addBookToLibrary(
     "Celtic Myths and Legends",
@@ -408,7 +411,8 @@ addBookToLibrary(
     612,
     "started",
     "img/Celtic.png",
-    "https://www.goodreads.com/book/show/700460.Celtic_Myths_and_Legends"
+    "https://www.goodreads.com/book/show/700460.Celtic_Myths_and_Legends",
+    ["anthology","fantasy","folklore","mythology","poetry"]
 );
 addBookToLibrary(
     "Of Ghosts and Goblins",
@@ -417,7 +421,7 @@ addBookToLibrary(
     true,
     "img/Ghosts_Goblins.jpg",
     "https://www.goodreads.com/book/show/60764312-of-ghosts-and-goblins",
-    ["fantasy","folklore","mythology","horror"]
+    ["anthology","fantasy","folklore","horror","mythology","poetry"]
 );
 addBookToLibrary(
     "The Complete Short Stories of",
@@ -426,7 +430,7 @@ addBookToLibrary(
     true,
     "img/Bierce.jpg",
     "https://www.nebraskapress.unl.edu/bison-books/9780803260719/the-complete-short-stories-of-ambrose-bierce/",
-    ["historical_fiction","horror","mystery", "war"]
+    ["anthology","crime","historical_fiction","horror","mystery","thriller","war"]
 );
 addBookToLibrary(
     "Fahrenheit 451",
@@ -435,7 +439,7 @@ addBookToLibrary(
     true,
     "img/Fahrenheit451.jpg",
     "https://en.wikipedia.org/wiki/Fahrenheit_451",
-    ["dystopian","science_fiction"]
+    ["dystopian","mystery","novel","science_fiction"]
 );
 addBookToLibrary(
     "Do Androids Dream Of Electric Sheep?",
@@ -443,7 +447,8 @@ addBookToLibrary(
     193,
     true,
     "img/androids.png",
-    "https://store.gollancz.co.uk/products/do-androids-dream-of-electric-sheep"
+    "https://store.gollancz.co.uk/products/do-androids-dream-of-electric-sheep",
+    ["adventure","crime","dystopian","mystery","novel","science_fiction"]
 );
 addBookToLibrary(
     "A Scanner Darkly",
@@ -451,7 +456,8 @@ addBookToLibrary(
     219,
     "started",
     "img/scanner.png",
-    "https://store.gollancz.co.uk/products/a-scanner-darkly?_pos=1&_sid=f761b26a6&_ss=r"
+    "https://store.gollancz.co.uk/products/a-scanner-darkly?_pos=1&_sid=f761b26a6&_ss=r",
+    ["crime","dystopian","novel","science_fiction"]
 );
 addBookToLibrary(
     "The Island of Doctor Moreau",
@@ -459,7 +465,8 @@ addBookToLibrary(
     193,
     true,
     "img/Moreau.png",
-    "https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau"
+    "https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau",
+    ["adventure","horror","mystery","novel","science_fiction"]
 );
 addBookToLibrary(
     "Ringworld",
@@ -467,7 +474,8 @@ addBookToLibrary(
     342,
     true,
     "img/Ringworld.png",
-    "https://store.gollancz.co.uk/products/ringworld?_pos=1&_psq=ringworld&_ss=e&_v=1.0"
+    "https://store.gollancz.co.uk/products/ringworld?_pos=1&_psq=ringworld&_ss=e&_v=1.0",
+    ["adventure","science_fiction"]
 );
 addBookToLibrary(
     "The New Annotated H.P. Lovecraft",
@@ -475,7 +483,8 @@ addBookToLibrary(
     928,
     true,
     "img/Lovecraft.jpg",
-    "https://lesliesklinger.com/books/the-new-annotated-h-p-lovecraft/"
+    "https://lesliesklinger.com/books/the-new-annotated-h-p-lovecraft/",
+    ["anthology","crime","fantasy","folklore","horror","mythology","science_fiction","thriller"]
 );
 addBookToLibrary(
     "The New Annotated H.P. Lovecraft: Beyond Arkham",
@@ -483,7 +492,8 @@ addBookToLibrary(
     512,
     true,
     "img/Lovecraft2.jpg",
-    "https://lesliesklinger.com/books/the-new-annotated-h-p-lovecraft-beyond-arkham/"
+    "https://lesliesklinger.com/books/the-new-annotated-h-p-lovecraft-beyond-arkham/",
+    ["anthology","crime","fantasy","folklore","horror","mythology","science_fiction","thriller"]
 );
 addBookToLibrary(
     "Dracula",
@@ -491,7 +501,8 @@ addBookToLibrary(
     432,
     true,
     "img/Dracula.png",
-    "https://www.spiegelburg-shop.de/grosse-schmuckausgabe-bram-stoker-dracula/64224"
+    "https://www.spiegelburg-shop.de/grosse-schmuckausgabe-bram-stoker-dracula/64224",
+    ["crime","fantasy","folklore","horror","mythology","novel","romance","thriller"]
 );
 addBookToLibrary(
     "From Here to Eternity",
@@ -499,7 +510,8 @@ addBookToLibrary(
     248,
     true,
     "img/FromHere.png",
-    "https://caitlindoughty.com/books/from-here-to-eternity/"
+    "https://caitlindoughty.com/books/from-here-to-eternity/",
+    ["anthropology","economy","environmental","historical","journalism","sociology","travel"]
 );
 addBookToLibrary(
     "Blindness - Ensaio sobre a Cegueira",
@@ -507,7 +519,8 @@ addBookToLibrary(
     320,
     true,
     "img/Saramago.jpg",
-    "https://www.josesaramago.org/en/book/blindness-essay/"
+    "https://www.josesaramago.org/en/book/blindness-essay/",
+    ["novel","science_fiction"]
 );
 addBookToLibrary(
     "The Unaccountability Machine",
@@ -515,7 +528,8 @@ addBookToLibrary(
     304,
     "started",
     "img/Machine.jpg",
-    "https://press.uchicago.edu/ucp/books/book/chicago/U/bo252799883.html"
+    "https://press.uchicago.edu/ucp/books/book/chicago/U/bo252799883.html",
+    ["anthropology","business","economy","environmental","historical","journalism","political","sociology"]
 );
 addBookToLibrary(
     "How Migration really works",
@@ -523,7 +537,8 @@ addBookToLibrary(
     430,
     true,
     "img/How_Migration.png",
-    "https://www.migrationinstitute.org/publications/how-migration-really-works"
+    "https://www.migrationinstitute.org/publications/how-migration-really-works",
+    ["anthropology","economy","environmental","historical","journalism","political","sociology","travel"]
 );
 addBookToLibrary(
     "The Silk Roads",
@@ -531,7 +546,8 @@ addBookToLibrary(
     736,
     false,
     "img/Silk.jpg",
-    "https://www.peterfrankopan.com/the-silk-roads.html"
+    "https://www.peterfrankopan.com/the-silk-roads.html",
+    ["anthropology","economy","environmental","historical","journalism","political","sociology","travel"]
 );
 addBookToLibrary(
     "The Earth Transformed",
@@ -539,7 +555,8 @@ addBookToLibrary(
     698,
     "started",
     "img/Earth.jpg",
-    "https://www.peterfrankopan.com/the-earth-transformed.html"
+    "https://www.peterfrankopan.com/the-earth-transformed.html",
+    ["anthropology","economy","environmental","historical","journalism","political","sociology","travel"]
 );
 addBookToLibrary(
     "Slovenology",
@@ -547,7 +564,8 @@ addBookToLibrary(
     270,
     true,
     "img/Slovenology.jpg",
-    "https://beletrina.si/knjiga/slovenology-angleski-jezik"
+    "https://beletrina.si/knjiga/slovenology-angleski-jezik",
+    ["journalism","slovenia","travel"]
 );
 addBookToLibrary(
     "Slovenoljub",
@@ -555,7 +573,8 @@ addBookToLibrary(
     256,
     false,
     "img/Slovenoljub.jpg",
-    "https://www.rtvslo.si/kultura/knjige/slovenoljub-noah-charney-je-preprican-da-so-slovenci-najprisrcnejsi-ljudje-na-svetu/756351"
+    "https://www.rtvslo.si/kultura/knjige/slovenoljub-noah-charney-je-preprican-da-so-slovenci-najprisrcnejsi-ljudje-na-svetu/756351",
+    ["journalism","slovenia","travel"]
 );
 addBookToLibrary(
     "Bledology",
@@ -563,7 +582,8 @@ addBookToLibrary(
     240,
     true,
     "img/Bledology.jpg",
-    "https://www.noahcharney.com/Books/Bledology"
+    "https://www.noahcharney.com/Books/Bledology",
+    ["journalism","slovenia","travel"]
 );
 addBookToLibrary(
     "Eternal Architect",
@@ -571,7 +591,8 @@ addBookToLibrary(
     254,
     false,
     "img/Plečnik.jpg",
-    "https://shop.mgml.si/en/product/noah-charney-eternal-architect/"
+    "https://shop.mgml.si/en/product/noah-charney-eternal-architect/",
+    ["architecture","art","biography","slovenia"]
 );
 addBookToLibrary(
     "Plečnik.",
@@ -579,7 +600,8 @@ addBookToLibrary(
     140,
     true,
     "img/2Plečnik.png", 
-    "https://shop.mgml.si/product/angleski-strip-plecnik-in-pika/"
+    "https://shop.mgml.si/product/angleski-strip-plecnik-in-pika/",
+    ["architecture","art","biography","graphic_novel","slovenia"]
 );
 addBookToLibrary(
     "Dove si incontrano le Acque",
@@ -587,7 +609,8 @@ addBookToLibrary(
     416,
     true,
     "img/Acque.png",
-    "https://www.kellereditore.it/2025/05/27/doce-si-incontrano-le-acque%c2%b7-j-a-derens-e-l-geslin/"
+    "https://www.kellereditore.it/2025/05/27/doce-si-incontrano-le-acque%c2%b7-j-a-derens-e-l-geslin/",
+    ["historical","journalism","sociology","travel","trieste"]
 );
 addBookToLibrary(
     "Trieste and the Meaning of Nowhere",
@@ -595,7 +618,8 @@ addBookToLibrary(
     188,
     true,
     "img/Trieste.jpg",
-    "https://www.goodreads.com/book/show/61043.Trieste_and_The_Meaning_of_Nowhere"
+    "https://www.goodreads.com/book/show/61043.Trieste_and_The_Meaning_of_Nowhere",
+    ["historical","memoir","trieste"]
 );
 addBookToLibrary(
     "Storia di Trieste",
@@ -603,7 +627,8 @@ addBookToLibrary(
     340,
     true,
     "img/Zgodovina.png",
-    "https://bibliotecadellimmagine.it/prodotto/storia-di-trieste-dalle-origini-ai-giorni-nostri/"
+    "https://bibliotecadellimmagine.it/prodotto/storia-di-trieste-dalle-origini-ai-giorni-nostri/",
+    ["historical","trieste"]
 );
 addBookToLibrary(
     "Serbi Croati Sloveni",
@@ -611,7 +636,8 @@ addBookToLibrary(
     236,
     true,
     "img/SHS.jpeg",
-    "https://www.mulino.it/isbn/9788815259363"
+    "https://www.mulino.it/isbn/9788815259363",
+    ["contemporary","historical","journalism","political","slovenia","war"]
 );
 addBookToLibrary(
     "Storia degli sloveni in Italia 1866-1998",
@@ -619,7 +645,8 @@ addBookToLibrary(
     150,
     true,
     "img/Zgodovina.jpg",
-    "https://www.glisfogliati.com/negozio/wohinz-pirjevec-storia-degli-sloveni-in-italia-1866-1998-1998/"
+    "https://www.glisfogliati.com/negozio/wohinz-pirjevec-storia-degli-sloveni-in-italia-1866-1998-1998/",
+    ["contemporary","historical","journalism","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "The Narodni Dom: Trieste, 1904-1920",
@@ -627,7 +654,8 @@ addBookToLibrary(
     79,
     true,
     "img/Narodni_Dom.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/il-narodni-dom-di-trieste-1904-1920/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/il-narodni-dom-di-trieste-1904-1920/",
+    ["architecture","crime","contemporary","historical","journalism","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Borba",
@@ -635,7 +663,8 @@ addBookToLibrary(
     286,
     false,
     "img/Borba.png",
-    "https://www.ztt-est.it/it/libri/borba"
+    "https://www.ztt-est.it/it/libri/borba",
+    ["contemporary","historical","journalism","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Gorizia Nova Gorica",
@@ -643,7 +672,8 @@ addBookToLibrary(
     184,
     true,
     "img/2Gorica.png",
-    "https://www.ztt-est.it/it/libri/gorizia-nova-gorica-1"
+    "https://www.ztt-est.it/it/libri/gorizia-nova-gorica-1",
+    ["architecture","art","contemporary","historical","journalism","political","slovenia","travel","war"]
 );
 addBookToLibrary(
     "Nova Gorica",
@@ -651,7 +681,8 @@ addBookToLibrary(
     148,
     true,
     "img/Nova Gorica.png",
-    "https://buca.si/knjigarna/knjige-v-tujih-jezikih/english-anglescina/nova-gorica-a-new-town-on-the-border/"
+    "https://buca.si/knjigarna/knjige-v-tujih-jezikih/english-anglescina/nova-gorica-a-new-town-on-the-border/",
+    ["contemporary","historical","journalism","memoir","political","slovenia","travel","trieste","war"]
 );
 addBookToLibrary(
     "La Fiamma Nera",
@@ -659,7 +690,8 @@ addBookToLibrary(
     79,
     false,
     "img/Plamen.jpg",
-    "https://www.ibs.it/fiamma-nera-rogo-del-narodni-libro-ivan-smiljanic-zoran-smiljanic/e/9788899007898#cc-anchor-dettagli"
+    "https://www.ibs.it/fiamma-nera-rogo-del-narodni-libro-ivan-smiljanic-zoran-smiljanic/e/9788899007898#cc-anchor-dettagli",
+    ["crime","contemporary","graphic_novel","historical","journalism","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Metamorfosi Etniche",
@@ -667,7 +699,8 @@ addBookToLibrary(
     348,
     false,
     "img/Metamorfosi.jpg",
-    "https://shop.kappavu.it/KV/prodotto/metamorfosi-etniche/"
+    "https://shop.kappavu.it/KV/prodotto/metamorfosi-etniche/",
+    ["crime","contemporary","historical","journalism","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Solo perché italiani?",
@@ -675,7 +708,8 @@ addBookToLibrary(
     360,
     true,
     "img/Solo.png",
-    "https://shop.kappavu.it/KV/prodotto/solo-perche-italiani/"
+    "https://shop.kappavu.it/KV/prodotto/solo-perche-italiani/",
+    ["crime","contemporary","historical","journalism","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "A cavallo del muro",
@@ -683,7 +717,8 @@ addBookToLibrary(
     192,
     true,
     "img/Volcic.jpg",
-    "https://www.sellerio.it/it/catalogo/Cavallo-Muro-Miei-Giorni-Europa-Est/-/15158"
+    "https://www.sellerio.it/it/catalogo/Cavallo-Muro-Miei-Giorni-Europa-Est/-/15158",
+    ["anthology","biography","contemporary","historical","journalism","memoir","political","slovenia","travevl","trieste","war"]
 );
 addBookToLibrary(
     "Vita del Confinato Luigi Spacal",
@@ -691,7 +726,8 @@ addBookToLibrary(
     204,
     true,
     "img/Spacal.jpg",
-    "https://www.edizioniets.com/scheda.asp?n=9788846768742"
+    "https://www.edizioniets.com/scheda.asp?n=9788846768742",
+    ["biography","contemporary","historical","journalism","memoir","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Quello che ho da dirvi",
@@ -699,7 +735,8 @@ addBookToLibrary(
     110,
     true,
     "img/Pahor.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/quello-che-ho-da-dirvi/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/quello-che-ho-da-dirvi/",
+    ["biography","contemporary","historical","journalism","literature","memoir","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Necropoli",
@@ -707,7 +744,8 @@ addBookToLibrary(
     160,
     true,
     "img/Necropoli.jpg",
-    "https://www.ibs.it/necropoli-graphic-novel-libro-boris-pahor/e/9788893132558#cc-anchor-dettagli"
+    "https://www.ibs.it/necropoli-graphic-novel-libro-boris-pahor/e/9788893132558#cc-anchor-dettagli",
+    ["biography","contemporary","historical","literature","memoir","poetry","political","trieste","war"]
 );
 addBookToLibrary(
     "Boris Pahor: Scrittore Senza Frontiere",
@@ -715,7 +753,8 @@ addBookToLibrary(
     352,
     true,
     "img/Pahor2.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/boris-pahor-scrittore-senza-frontiere/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/boris-pahor-scrittore-senza-frontiere/",
+    ["anthology","biography","essay","historical","literature","poetry","slovenia","trieste"]
 );
 addBookToLibrary(
     "Letteratura Slovena del Litorale",
@@ -723,15 +762,17 @@ addBookToLibrary(
     166,
     true,
     "img/Lett_Slo.png",
-    "https://www.mladika.com/izdelek/letteratura-slovena-del-litorale-vademecum/"
+    "https://www.mladika.com/izdelek/letteratura-slovena-del-litorale-vademecum/",
+    ["anthology","essay","historical","literature","poetry","slovenia","trieste"]
 );
 addBookToLibrary(
-    "La Danza delle Ombre Senčni Ples",
+    "La Danza delle Ombre - Senčni Ples",
     "Alojz Rebula",
     352,
     true,
     "img/Ples.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/la-danza-delle-ombre/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/la-danza-delle-ombre/",
+     ["historical_fiction","novel","political","slovenia","trieste"]
 );
 addBookToLibrary(
     "Aspri Ritmi - Ostri Ritmi",
@@ -739,7 +780,8 @@ addBookToLibrary(
     272,
     "started",
     "img/Ostri.jpg",
-    "https://www.ztt-est.it/sl/knjige/aspri-ritmi-ostri-ritmi"
+    "https://www.ztt-est.it/sl/knjige/aspri-ritmi-ostri-ritmi",
+     ["anthology","literature","political","philosophy","poetry","slovenia","war"]
 );
 addBookToLibrary(
     "Il servo jernej e il suo Diritto - Hlapec Jernej in njegova Pravica",
@@ -747,7 +789,8 @@ addBookToLibrary(
     190,
     true,
     "img/Cankar.jpg",
-    "https://www.ts360srl.com/spletna-knjigarna/hlapec-jernej-in-njegova-pravica/"
+    "https://www.ts360srl.com/spletna-knjigarna/hlapec-jernej-in-njegova-pravica/",
+     ["contemporary","historical_fiction","political","slovenia","war"]
 );
 addBookToLibrary(
     "Images from Dreams",
@@ -755,7 +798,8 @@ addBookToLibrary(
     315,
     false,
     "img/Sanje.png",
-    "https://beletrinadigital.si/e-knjiga/images-from-dreams"
+    "https://beletrinadigital.si/e-knjiga/images-from-dreams",
+    ["anthology","essay","historical","literature","political","slovenia","war"]
 );
 addBookToLibrary(
     "Machine, do you know your duty?",
@@ -763,7 +807,8 @@ addBookToLibrary(
     192,
     true,
     "img/Mašina.jpg",
-    "https://litteraeslovenicae.si/books/2022-2025/esad-babacic-machine-do-you-know-your-duty/"
+    "https://litteraeslovenicae.si/books/2022-2025/esad-babacic-machine-do-you-know-your-duty/",
+    ["anthology","contemporary","essay","historical","journalism","literature","philosophy","poetry","sociology","sport","slovenia"]
 );
 addBookToLibrary(
     "Questa Trieste",
@@ -771,7 +816,8 @@ addBookToLibrary(
     270,
     true,
     "img/Trst.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/questa-trieste/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/questa-trieste/",
+    ["anthology","contemporary","essay","historical","journalism","literature","poetry","slovenia","trieste"]
 );
 addBookToLibrary(
     "Racconti Umoristici Triestini",
@@ -779,7 +825,8 @@ addBookToLibrary(
     224,
     true,
     "img/Humoreske.jpg",
-    "https://www.ibs.it/racconti-umoristici-triestini-libro-vladimir-bartol/e/9788862870986"
+    "https://www.ibs.it/racconti-umoristici-triestini-libro-vladimir-bartol/e/9788862870986",
+    ["anthology","contemporary","historical_fiction","humor","trieste"]
 );
 addBookToLibrary(
     "I Fantasmi di Trieste",
@@ -787,7 +834,8 @@ addBookToLibrary(
     136,
     true,
     "img/Duhovi.jpg",
-    "https://www.bottegaerranteedizioni.it/product/i-fantasmi-di-trieste/"
+    "https://www.bottegaerranteedizioni.it/product/i-fantasmi-di-trieste/",
+    ["anthology","contemporary","historical","journalism","non_fiction","slovenia","trieste"]
 );
 addBookToLibrary(
     "Zora: Una storia di resistenza",
@@ -795,7 +843,8 @@ addBookToLibrary(
     245,
     true,
     "img/Zora.jpg",
-    "https://www.ztt-est.it/sl/knjige/zora"
+    "https://www.ztt-est.it/sl/knjige/zora",
+    ["biography","contemporary","historical","journalism","memoir","non_fiction","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Qui io non conto",
@@ -803,7 +852,8 @@ addBookToLibrary(
     152,
     true,
     "img/qui.png",
-    "https://www.beccogiallo.it/negozio/graphic-journalism/qui-io-non-conto/"
+    "https://www.beccogiallo.it/negozio/graphic-journalism/qui-io-non-conto/",
+    ["contemporary","graphic_novel","historical","memoir","non_fiction","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Slovenščina v Italiji",
@@ -811,7 +861,8 @@ addBookToLibrary(
     236,
     true,
     "img/Slo.jpg",
-    "https://www.slori.org/publikacije/slovenscina-v-italiji/"
+    "https://www.slori.org/publikacije/slovenscina-v-italiji/",
+    ["anthropology","contemporary","historical","journalism","non_fiction","sociology","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Slovene-Italian Relations 1880–1956",
@@ -819,7 +870,8 @@ addBookToLibrary(
     120,
     false,
     "img/Zgodovinsko-Kulturne Komisije.png",
-    "hhttps://www.gov.si/en/news/2026-02-13-reprint-of-the-book-slovene-italian-relations-18801956-report-of-the-slovene-italian-historical-and-cultural-commission/"
+    "hhttps://www.gov.si/en/news/2026-02-13-reprint-of-the-book-slovene-italian-relations-18801956-report-of-the-slovene-italian-historical-and-cultural-commission/",
+    ["contemporary","historical","journalism","non_fiction","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Slovenka",
@@ -827,7 +879,8 @@ addBookToLibrary(
     178,
     false,
     "img/Slovenka.jpg",
-    "https://www.vitaactivaeditoria.it/2019/04/25/slovenka-il-primo-giornale-femminile-sloveno/"
+    "https://www.vitaactivaeditoria.it/2019/04/25/slovenka-il-primo-giornale-femminile-sloveno/",
+    ["contemporary","historical","journalism","non_fiction","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Un Onomasticidio di Stato",
@@ -835,7 +888,8 @@ addBookToLibrary(
     192,
     true,
     "img/Tasso.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/un-onomasticidio-di-stato/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/un-onomasticidio-di-stato/",
+    ["contemporary","historical","non_fiction","trieste","war"]
 );
 addBookToLibrary(
     "The Risiera concentration camp",
@@ -843,7 +897,8 @@ addBookToLibrary(
     90,
     true,
     "img/Sabba.jpg",
-    "https://battellostampatore.com/libro/the-risiera-concentration-camp/"
+    "https://battellostampatore.com/libro/the-risiera-concentration-camp/",
+    ["contemporary","historical","non_fiction","trieste","war"]
 );
 addBookToLibrary(
     "Un Ufficiale Asburgico tra fedeltà e Patria slovena",
@@ -851,7 +906,8 @@ addBookToLibrary(
     192,
     true,
     "img/Stanislav Dekleva.png",
-    "https://www.gasparieditore.it/un-ufficiale-asburgico-tra-fedelta-e-patria-slovena"
+    "https://www.gasparieditore.it/un-ufficiale-asburgico-tra-fedelta-e-patria-slovena",
+    ["biography","contemporary","historical","non_fiction","memoir","slovenia","trieste","war"]
 );
 addBookToLibrary(
     "Il Giorno in cui finì l'Estate - V Elvisovi Sobi",
@@ -859,7 +915,8 @@ addBookToLibrary(
     308,
     true,
     "img/Elvisovi.jpg",
-    "https://www.bottegaerranteedizioni.it/product/il-giorno-in-cui-fini-lestate/"
+    "https://www.bottegaerranteedizioni.it/product/il-giorno-in-cui-fini-lestate/",
+    ["contemporary","historical_fiction","novel","slovenia", "war"]
 );
 addBookToLibrary(
     "Stanotte l'ho Vista - To noč sem jo Videl",
@@ -867,7 +924,8 @@ addBookToLibrary(
     212,
     true,
     "img/Videl.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/stanotte-lho-vista/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/stanotte-lho-vista/",
+    ["contemporary","historical_fiction","novel","slovenia", "war"]
 );
 addBookToLibrary(
     "All'Ombra del Fico - Figa",
@@ -875,7 +933,8 @@ addBookToLibrary(
     463,
     true,
     "img/Figa.jpg",
-    "https://www.ts360srl.com/spletna-knjigarna/figa/"
+    "https://www.ts360srl.com/spletna-knjigarna/figa/",
+    ["contemporary","historical_fiction","novel","slovenia", "war"]
 );
 addBookToLibrary(
     "Čefurji Raus!",
@@ -883,7 +942,8 @@ addBookToLibrary(
     198,
     true,
     "img/Čefurji.jpg",
-    "https://www.ts360srl.com/it/spletna-knjigarna/cefuri-raus/"
+    "https://www.ts360srl.com/it/spletna-knjigarna/cefuri-raus/",
+    ["contemporary","historical_fiction","humor","novel","slovenia"]
 );
 addBookToLibrary(
     "Spomenik",
@@ -891,7 +951,8 @@ addBookToLibrary(
     200,
     true,
     "img/Spomenik.jpg",
-    "https://www.bottegaerranteedizioni.it/spomenik/"
+    "https://www.bottegaerranteedizioni.it/spomenik/",
+    ["anthology","architecture","historical","non_fiction","travel"]
 );
 addBookToLibrary(
     "Itinerari a piedi nelle Valli del Natisone - Pešpoti po Nediških dolinah",
@@ -899,7 +960,8 @@ addBookToLibrary(
     215,
     false,
     "img/Dolina.png",
-    "https://www.noviglas.eu/vabilo-k-odkrivanju-lepot-benecije-s-pohodi-po-nediskih-terskih-dolinah/"
+    "https://www.noviglas.eu/vabilo-k-odkrivanju-lepot-benecije-s-pohodi-po-nediskih-terskih-dolinah/",
+    ["non_fiction","travel"]
 );
 addBookToLibrary(
     "La Farina dei Partigiani",
@@ -907,7 +969,8 @@ addBookToLibrary(
     464,
     false,
     "img/Farina.jpg",
-    "https://edizionialegre.it/product/la-farina-dei-partigiani/"
+    "https://edizionialegre.it/product/la-farina-dei-partigiani/",
+    ["contemporary","historical_fiction","novel","war"]
 );
 addBookToLibrary(
     "Il Figlio della Lupa",
@@ -915,7 +978,8 @@ addBookToLibrary(
     333,
     false,
     "img/Volkulja.png",
-    "https://thebookishexplorer.com/2025/03/04/anton-spacapan-voncina-e-francesco-tomada-il-figlio-della-lupa/"
+    "https://thebookishexplorer.com/2025/03/04/anton-spacapan-voncina-e-francesco-tomada-il-figlio-della-lupa/",
+    ["contemporary","historical_fiction","novel"]
 );
 addBookToLibrary(
     "Autopsie di Famigia",
@@ -923,7 +987,8 @@ addBookToLibrary(
     116,
     true,
     "img/Mugerli.jpg",
-    "https://www.infinitoedizioni.it/prodotto/autopsie-di-famiglia/"
+    "https://www.infinitoedizioni.it/prodotto/autopsie-di-famiglia/",
+    ["anthology","contemporary","non_fiction","novel","slovenia"]
 );
 addBookToLibrary(
     "Monalogo de Molly",
@@ -931,7 +996,8 @@ addBookToLibrary(
     72,
     true,
     "img/Monalogo.png",
-    "https://www.passioneirlanda.com/monalogo-de-molly/"
+    "https://www.passioneirlanda.com/monalogo-de-molly/",
+    ["contemporary","humor","literature","trieste"]
 );
 addBookToLibrary(
     "L'Osmiza sul Mare",
@@ -939,7 +1005,8 @@ addBookToLibrary(
     192,
     true,
     "img/Osmiza.jpg",
-    "https://bora.la/prodotto/l-osmiza-sul-mare/"
+    "https://bora.la/prodotto/l-osmiza-sul-mare/",
+    ["anthology","contemporary","humor","trieste"]
 );
 addBookToLibrary(
     "La smonta la prossima? Una vita in corriera",
@@ -947,7 +1014,8 @@ addBookToLibrary(
     148,
     true,
     "img/Smonta.jpg",
-    "https://bora.la/prodotto/la-smonta-la-prossima-una-vita-in-corriera/"
+    "https://bora.la/prodotto/la-smonta-la-prossima-una-vita-in-corriera/",
+    ["anthology","contemporary","humor","trieste"]
 );
 addBookToLibrary(
     "RIP: Ridi in Pace",
@@ -955,7 +1023,8 @@ addBookToLibrary(
     176,
     true,
     "img/Ridi.png",
-    "https://bora.la/prodotto/rip-ridi-in-pace/"
+    "https://bora.la/prodotto/rip-ridi-in-pace/",
+    ["anthology","contemporary","humor","trieste"]
 );
 addBookToLibrary(
     "Casa mia, Casa mia",
@@ -963,7 +1032,8 @@ addBookToLibrary(
     118,
     true,
     "img/Hiša.jpg",
-    "https://bora.la/prodotto/casa-mia-casa-mia-come-tirar-vanti-nela-giungla-del-cemento-triestin/"
+    "https://bora.la/prodotto/casa-mia-casa-mia-come-tirar-vanti-nela-giungla-del-cemento-triestin/",
+    ["anthology","contemporary","humor","trieste"]
 );
 addBookToLibrary(
     "Trieste 1719: Quando gli Asburgo Scoprirono il Mare",
@@ -971,7 +1041,8 @@ addBookToLibrary(
     218,
     true,
     "img/Trst1719.jpg",
-    "https://bora.la/prodotto/trieste-1719-quando-gli-asburgo-scoprirono-il-mare/"
+    "https://bora.la/prodotto/trieste-1719-quando-gli-asburgo-scoprirono-il-mare/",
+    ["historical","trieste"]
 );
 addBookToLibrary(
     "Tergeste: dove regna la Bora",
@@ -979,7 +1050,8 @@ addBookToLibrary(
     92,
     true,
     "img/Bora.jpg",
-    "https://bora.la/prodotto/tergeste-dove-regna-la-bora/"
+    "https://bora.la/prodotto/tergeste-dove-regna-la-bora/",
+    ["historical","trieste"]
 );
 addBookToLibrary(
     "C'era una volta a… Triestewood",
@@ -987,7 +1059,8 @@ addBookToLibrary(
     176,
     true,
     "img/Triestewood.jpg",
-    "https://bora.la/prodotto/cera-una-volta-a-triestewood/"
+    "https://bora.la/prodotto/cera-una-volta-a-triestewood/",
+    ["fantasy","humor","trieste"]
 );
 addBookToLibrary(
     "Mestieri triestini di una volta",
@@ -995,7 +1068,8 @@ addBookToLibrary(
     92,
     false,
     "img/Mestieri.png",
-    "https://bora.la/prodotto/mestieri-triestini-di-una-volta/"
+    "https://bora.la/prodotto/mestieri-triestini-di-una-volta/",
+    ["contemporary","graphic_novel","historical","humor","trieste"]
 );
 addBookToLibrary(
     "Troppo triestini",
@@ -1003,6 +1077,7 @@ addBookToLibrary(
     96,
     true,
     "img/Tropo.jpg",
-    "https://bora.la/prodotto/troppo-triestini/"
+    "https://bora.la/prodotto/troppo-triestini/",
+    ["anthology","contemporary","fantasy","humor","trieste"]
 );
 displayLibrary();
