@@ -287,13 +287,27 @@ i {
     font-weight: bolder;
     margin-top: auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.25em;
     margin-bottom: 0.5em;
+}
+
+.book-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.book-read,
+.book-pages {
+    margin: 0;
 }
 
 .book-pages {
     font-size: 0.9em;
     font-weight: normal;
+    text-align: right;
 }
 
 .book-genre {

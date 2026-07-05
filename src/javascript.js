@@ -270,16 +270,21 @@ function createNewBookElement(book) {
     const info = document.createElement("div");
     info.classList.add("book-info");
 
+    const metaRow = document.createElement("div");
+    metaRow.classList.add("book-meta-row");
+
     const read = document.createElement("p");
     read.classList.add("book-read");
     read.textContent =
         book.status === 'read' ? 'Read' : (book.status === 'started' ? 'Started' : 'Not Read');
-    info.appendChild(read);
+    metaRow.appendChild(read);
 
     const pages = document.createElement("p");
     pages.classList.add("book-pages");
     pages.textContent = `${book.pages} pages`;
-    info.appendChild(pages);
+    metaRow.appendChild(pages);
+
+    info.appendChild(metaRow);
 
     const genre = document.createElement("p");
     genre.classList.add("book-genre");
