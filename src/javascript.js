@@ -425,8 +425,17 @@ addBookToLibrary(
     224,
     true,
     "img/Ghosts_Goblins.jpg",
-    "https://www.goodreads.com/book/show/60764312-of-ghosts-and-goblins",
+    "https://www.penguin.co.uk/books/451552/of-ghosts-and-goblins-by-hearn-lafcadio/9780241573723",
     ["anthology","fantasy","folklore","horror","mythology","poetry"]
+);
+addBookToLibrary(
+    "Letters to a young poet",
+    "Rainer Maria Rilke",
+    109,
+    "started",
+    "img/Rilke_youngPoet.png",
+    "https://www.penguin.co.uk/books/176989/letters-to-a-young-poet-by-rilke-rainer-maria/9780241620038",
+    ["anthology","literature","philosophy","poetry"]
 );
 addBookToLibrary(
     "The Complete Short Stories of",
@@ -459,7 +468,7 @@ addBookToLibrary(
     "A Scanner Darkly",
     "Philip K. Dick",
     219,
-    "started",
+    true,
     "img/scanner.png",
     "https://store.gollancz.co.uk/products/a-scanner-darkly?_pos=1&_sid=f761b26a6&_ss=r",
     ["crime","dystopian","novel","science_fiction"]
@@ -1014,6 +1023,15 @@ addBookToLibrary(
     ["anthology","contemporary","humor","trieste"]
 );
 addBookToLibrary(
+    "La Trisnonna Clementina e la Risiera di San Sabba",
+    "Alessandro Slama & Roberta Zucca",
+    32,
+    true,
+    "img/Clementina.png",
+    "https://bora.la/prodotto/la-trisnonna-clementina-e-la-risiera-di-san-sabba/",
+    ["biography","contemporary","historical","trieste", "war"]
+);
+addBookToLibrary(
     "La smonta la prossima? Una vita in corriera",
     "Davide Destradi",
     148,
@@ -1030,6 +1048,15 @@ addBookToLibrary(
     "img/Ridi.png",
     "https://bora.la/prodotto/rip-ridi-in-pace/",
     ["anthology","contemporary","humor","trieste"]
+);
+addBookToLibrary(
+    "Live in Trieste",
+    "Giuseppe Vergara",
+    382,
+    false,
+    "img/live_Trst.png",
+    "https://bora.la/prodotto/live-in-trieste-54-anni-di-concerti/",
+    ["anthology","contemporary","historical","humor","journalism","music","trieste"]
 );
 addBookToLibrary(
     "Casa mia, Casa mia",
@@ -1059,22 +1086,40 @@ addBookToLibrary(
     ["historical","trieste"]
 );
 addBookToLibrary(
+    "Monon Behavior",
+    "Diego Manna",
+    72,
+    true,
+    "img/Monon.png",
+    "https://bora.la/prodotto/monon-behavior/",
+    ["humor","journalism","sociology","trieste"]
+);
+addBookToLibrary(
+    "Monon Behavior 2",
+    "Diego Manna",
+    70,
+    false,
+    "img/Monon2.png",
+    "https://bora.la/prodotto/monon-behavior-ciu/",
+    ["humor","journalism","sociology","trieste"]
+);
+addBookToLibrary(
+    "The Origin of Nosepolis: Monon Behavior 4",
+    "Diego Manna",
+    124,
+    false,
+    "img/Monon4.png",
+    "https://bora.la/prodotto/the-origin-of-nosepolis/",
+    ["humor","journalism","sociology","trieste"]
+);
+addBookToLibrary(
     "C'era una volta a… Triestewood",
     "Andrea Martinis",
     176,
     true,
     "img/Triestewood.jpg",
     "https://bora.la/prodotto/cera-una-volta-a-triestewood/",
-    ["fantasy","humor","trieste"]
-);
-addBookToLibrary(
-    "Mestieri triestini di una volta",
-    "Lino Monaco",
-    92,
-    false,
-    "img/Mestieri.png",
-    "https://bora.la/prodotto/mestieri-triestini-di-una-volta/",
-    ["contemporary","graphic_novel","historical","humor","trieste"]
+    ["humor","science_fiction","trieste"]
 );
 addBookToLibrary(
     "Troppo triestini",
@@ -1084,5 +1129,95 @@ addBookToLibrary(
     "img/Tropo.jpg",
     "https://bora.la/prodotto/troppo-triestini/",
     ["anthology","contemporary","fantasy","humor","trieste"]
+);
+addBookToLibrary(
+    "Trieste Cinica",
+    "Vile & Vampi",
+    64,
+    true,
+    "img/Nazaj.png",
+    "https://bora.la/prodotto/trieste-cinica-dal-no-se-pol-al-no-ga-senso/",
+    ["anthology","contemporary","humor","political","trieste"]
+);
+addBookToLibrary(
+    "Vox Pupoli",
+    "Vile & Vampi",
+    220,
+    true,
+    "img/Vile_Vampi.png",
+    "https://bora.la/prodotto/vox-pupoli/",
+    ["anthology","contemporary","humor","political","trieste"]
+);
+addBookToLibrary(
+    "El Libreto rosso de Cosolini",
+    "Comunità di Bora.La",
+    68,
+    true,
+    "img/Cosolini.png",
+    "https://bora.la/prodotto/el-libreto-rosso-de-cosolini/",
+    ["anthology","contemporary","humor","political","trieste"]
+);
+addBookToLibrary(
+    "El Libro dele Risposte Triestine",
+    "Andrej Praselj",
+    128,
+    true,
+    "img/Triestins.png",
+    "https://bora.la/prodotto/el-libro-dele-risposte-triestine/",
+    ["anthology","contemporary","humor","trieste"]
+);
+addBookToLibrary(
+    "50 Cose da non fare a Trieste",
+    "Andrej Praselj",
+    64,
+    true,
+    "img/50_Trst.png",
+    "https://bora.la/prodotto/50-cose-da-non-fare-a-trieste/",
+    ["anthology","contemporary","humor","trieste"]
+);
+addBookToLibrary(
+    "Il Libri des Rispuestis Furlanis",
+    "Felici ma Furlans & Andrej Praselj",
+    128,
+    true,
+    "img/Furlans.png",
+    "https://bora.la/prodotto/il-libri-des-rispuestis-furlanis/",
+    ["anthology","contemporary","humor"]
+);
+addBookToLibrary(
+    "50 Cose da non fare in Friuli",
+    "Mataran",
+    64,
+    true,
+    "img/50_Lanfur.png",
+    "https://bora.la/prodotto/50-cose-da-non-fare-in-friuli/",
+    ["anthology","contemporary","humor"]
+);
+addBookToLibrary(
+    "Ocio de Soto",
+    "Gianfranco Pacco",
+    70,
+    true,
+    "img/Ocio.png",
+    "https://bora.la/prodotto/ocio-de-soto/",
+    ["anthology","contemporary","humor","trieste"]
+);
+addBookToLibrary(
+    "Suposte per un ano",
+    "Gianfranco Pacco",
+    240,
+    false,
+    "img/Suposte.png",
+    "https://bora.la/prodotto/suposte-per-un-ano/",
+    ["anthology","contemporary","humor","trieste"]
+);
+addBookToLibrary(
+    "Mestieri triestini di una volta",
+    "Lino Monaco",
+    92,
+    false,
+    "img/Mestieri.png",
+    "https://bora.la/prodotto/mestieri-triestini-di-una-volta/",
+    ["contemporary","graphic_novel","historical","humor","trieste"]
 );
 displayLibrary();
