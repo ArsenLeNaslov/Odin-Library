@@ -1072,7 +1072,7 @@ addBookToLibrary(
     "Edda Vidiz",
     218,
     true,
-    "img/Trst1719.jpg",
+    "img/Trst1719.png",
     "https://bora.la/prodotto/trieste-1719-quando-gli-asburgo-scoprirono-il-mare/",
     ["historical","trieste"]
 );
@@ -1081,7 +1081,7 @@ addBookToLibrary(
     "Edda Vidiz",
     92,
     true,
-    "img/Bora.jpg",
+    "img/Bora.png",
     "https://bora.la/prodotto/tergeste-dove-regna-la-bora/",
     ["historical","trieste"]
 );
@@ -1089,7 +1089,7 @@ addBookToLibrary(
     "Monon Behavior",
     "Diego Manna",
     72,
-    true,
+    false,
     "img/Monon.png",
     "https://bora.la/prodotto/monon-behavior/",
     ["humor","journalism","sociology","trieste"]
