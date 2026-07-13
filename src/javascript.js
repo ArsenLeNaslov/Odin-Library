@@ -1212,10 +1212,19 @@ addBookToLibrary(
     ["anthology","contemporary","humor","trieste"]
 );
 addBookToLibrary(
+    "Libero libera tutti",
+    "Francesca Sarocchi & Chiara Gelmini",
+    64,
+    true,
+    "img/Libero.png",
+    "https://bora.la/prodotto/libero-libera-tutti/",
+    ["anthology","contemporary","humor","trieste"]
+);
+addBookToLibrary(
     "Mestieri triestini di una volta",
     "Lino Monaco",
     92,
-    false,
+    true,
     "img/Mestieri.png",
     "https://bora.la/prodotto/mestieri-triestini-di-una-volta/",
     ["contemporary","graphic_novel","historical","humor","trieste"]
