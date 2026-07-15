@@ -396,7 +396,7 @@ addBookToLibrary(
     "Time and the Gods",
     "Lord Dunsany",
     584,
-    false,
+    "started",
     "img/Time.jpg",
     "https://www.goodreads.com/es/book/show/757018.Time_and_the_Gods",
     ["fantasy","folklore", "mythology","poetry"]
