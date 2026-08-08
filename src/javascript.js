@@ -1131,6 +1131,15 @@ addBookToLibrary(
     ["anthology","contemporary","fantasy","humor","trieste"]
 );
 addBookToLibrary(
+    "Tergeste: dove regna la Bora",
+    "Edda Vidiz",
+    92,
+    true,
+    "img/Bora.png",
+    "https://bora.la/prodotto/tergeste-dove-regna-la-bora/",
+    ["historical","trieste"]
+);
+addBookToLibrary(
     "Trieste Cinica",
     "Vile & Vampi",
     64,
@@ -1156,6 +1165,15 @@ addBookToLibrary(
     "img/Cosolini.png",
     "https://bora.la/prodotto/el-libreto-rosso-de-cosolini/",
     ["anthology","contemporary","humor","political","trieste"]
+);
+addBookToLibrary(
+    "Sburtàr Radicio",
+    "Alessandro Fullin",
+    116,
+    true,
+    "img/Radicio.png",
+    "https://mgspress.com/shop/prodotto/sburtar-radicio/",
+    ["anthology","contemporary","humor","trieste"]
 );
 addBookToLibrary(
     "El Libro dele Risposte Triestine",
