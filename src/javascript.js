@@ -702,7 +702,7 @@ addBookToLibrary(
     "La Fiamma Nera",
     "Ivan Smiljanić & Zoran Smiljanić",
     79,
-    false,
+    true,
     "img/Plamen.jpg",
     "https://www.ibs.it/fiamma-nera-rogo-del-narodni-libro-ivan-smiljanic-zoran-smiljanic/e/9788899007898#cc-anchor-dettagli",
     ["crime","contemporary","graphic_novel","historical","journalism","political","slovenia","trieste","war"]
