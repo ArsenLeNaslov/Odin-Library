@@ -447,6 +447,15 @@ addBookToLibrary(
     ["anthology","crime","historical_fiction","horror","mystery","thriller","war"]
 );
 addBookToLibrary(
+    "Alamut",
+    "Vladimir Bartol",
+    588,
+    false,
+    "img/Alamut.png",
+    "https://www.sanje.si/en/alamut-english.html",
+    ["crime","historical_fiction","mystery","thriller","war"]
+);
+addBookToLibrary(
     "Fahrenheit 451",
     "Ray Bradbury",
     256,
@@ -570,7 +579,16 @@ addBookToLibrary(
     "started",
     "img/Earth.jpg",
     "https://www.peterfrankopan.com/the-earth-transformed.html",
-    ["anthropology","economy","environmental","historical","journalism","political","sociology","travel"]
+    ["anthropology","economy","environmental","historical","journalism","nature","political","science","sociology","travel"]
+);
+addBookToLibrary(
+    "Perché ci Ostiniamo",
+    "Fredrik Sjöberg",
+    192,
+    "started",
+    "img/Ostinato.png",
+    "https://iperborea.com/titolo/502/perche-ci-ostiniamo/",
+    ["anthology","anthropology","art","environmental","essay","historical","humor","journalism","nature","science","sociology","travel"]
 );
 addBookToLibrary(
     "Slovenology",
@@ -624,7 +642,16 @@ addBookToLibrary(
     true,
     "img/Acque.png",
     "https://www.kellereditore.it/2025/05/27/doce-si-incontrano-le-acque%c2%b7-j-a-derens-e-l-geslin/",
-    ["historical","journalism","sociology","travel","trieste"]
+    ["anthropology","historical","journalism","non_fiction","sociology","travel","trieste"]
+);
+addBookToLibrary(
+    "Il Libro del Sud",
+    "Jurica Pavičić",
+    352,
+    "started",
+    "img/Jugu.png",
+    "https://www.kellereditore.it/prodotto/libro-del-sud/",
+    ["anthropology","historical","journalism","non_fiction","sociology","travel"]
 );
 addBookToLibrary(
     "Trieste and the Meaning of Nowhere",
@@ -924,7 +951,7 @@ addBookToLibrary(
     ["biography","contemporary","historical","non_fiction","memoir","slovenia","trieste","war"]
 );
 addBookToLibrary(
-    "Il Giorno in cui finì l'Estate - V Elvisovi Sobi",
+    "V Elvisovi Sobi - Il Giorno in cui finì l'Estate",
     "Sebastian Pregelj",
     308,
     true,
@@ -933,7 +960,16 @@ addBookToLibrary(
     ["contemporary","historical_fiction","novel","slovenia", "war"]
 );
 addBookToLibrary(
-    "Stanotte l'ho Vista - To noč sem jo Videl",
+    "Izbrisana - I Cancellati",
+    "Miha Mazzini",
+    288,
+    false,
+    "img/Izbrisana.png",
+    "https://www.bottegaerranteedizioni.it/product/i-cancellati/",
+    ["contemporary","historical_fiction","novel","slovenia", "war"]
+);
+addBookToLibrary(
+    "To noč sem jo Videl - Stanotte l'ho Vista",
     "Drago Jančar",
     212,
     true,
@@ -942,7 +978,7 @@ addBookToLibrary(
     ["contemporary","historical_fiction","novel","slovenia", "war"]
 );
 addBookToLibrary(
-    "All'Ombra del Fico - Figa",
+    "Figa - All'Ombra del Fico",
     "Goran Vojnović",
     463,
     true,
@@ -969,13 +1005,22 @@ addBookToLibrary(
     ["anthology","architecture","historical","non_fiction","travel"]
 );
 addBookToLibrary(
-    "Itinerari a piedi nelle Valli del Natisone - Pešpoti po Nediških dolinah",
+    "Pešpoti po Nediških dolinah - Itinerari a piedi nelle Valli del Natisone",
     "Brunello Pagavino",
     215,
     false,
     "img/Dolina.png",
     "https://www.noviglas.eu/vabilo-k-odkrivanju-lepot-benecije-s-pohodi-po-nediskih-terskih-dolinah/",
     ["non_fiction","travel"]
+);
+addBookToLibrary(
+    "Railing – Il giro della Slovenia in treno",
+    "Davide Ukmar",
+    63,
+    false,
+    "img/Railing.png",
+    "https://bora.la/2025/03/24/railing-il-giro-della-slovenia-in-treno-il-nuovo-libro-di-davide-ukmar-e-disponibile-su-amazon/",
+    ["non_fiction","slovenia","travel"]
 );
 addBookToLibrary(
     "La Farina dei Partigiani",
