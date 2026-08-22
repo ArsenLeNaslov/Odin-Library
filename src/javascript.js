@@ -1131,6 +1131,15 @@ addBookToLibrary(
     ["historical","trieste"]
 );
 addBookToLibrary(
+    "La Profezia del Portovecchio",
+    "Francesco Boer",
+    120,
+    false,
+    "img/Profezia.png",
+    "https://bora.la/prodotto/la-profezia-del-portovecchio-fuga-da-un-sogno-senza-fine/",
+    ["adventure","crime","humor","mistery","trieste"]
+);
+addBookToLibrary(
     "Monon Behavior",
     "Diego Manna",
     72,
