@@ -555,6 +555,15 @@ addBookToLibrary(
     ["anthropology","business","economy","environmental","historical","journalism","political","sociology"]
 );
 addBookToLibrary(
+    "Grammamanti",
+    "Vera Gheno",
+    142,
+    "started",
+    "Grammamanti.jpg",
+    "https://www.einaudi.it/catalogo-libri/critica-letteraria-e-linguistica/filologia-e-critica-letteraria/grammamanti-vera-gheno-9788806260224/",
+    ["anthropology","essay","historical","journalism","literary_criticism","philolophy","political","sociology"]
+);
+addBookToLibrary(
     "How Migration really works",
     "Hein de Haas",
     430,
@@ -648,7 +657,7 @@ addBookToLibrary(
     "Il Libro del Sud",
     "Jurica Pavičić",
     352,
-    "started",
+    true,
     "img/Jugu.png",
     "https://www.kellereditore.it/prodotto/libro-del-sud/",
     ["anthropology","historical","journalism","non_fiction","sociology","travel"]
