@@ -558,7 +558,7 @@ addBookToLibrary(
     "Grammamanti",
     "Vera Gheno",
     142,
-    "started",
+    true,
     "img/Grammamanti.jpg",
     "https://www.einaudi.it/catalogo-libri/critica-letteraria-e-linguistica/filologia-e-critica-letteraria/grammamanti-vera-gheno-9788806260224/",
     ["anthropology","essay","historical","journalism","literary_criticism","philolophy","political","sociology"]
@@ -594,7 +594,7 @@ addBookToLibrary(
     "Perché ci Ostiniamo",
     "Fredrik Sjöberg",
     192,
-    "started",
+    true,
     "img/Ostinato.png",
     "https://iperborea.com/titolo/502/perche-ci-ostiniamo/",
     ["anthology","anthropology","art","environmental","essay","historical","humor","journalism","nature","science","sociology","travel"]
@@ -927,7 +927,7 @@ addBookToLibrary(
     "Slovenka",
     "Marta Verginella",
     178,
-    false,
+    "started",
     "img/Slovenka.jpg",
     "https://www.vitaactivaeditoria.it/2019/04/25/slovenka-il-primo-giornale-femminile-sloveno/",
     ["contemporary","historical","journalism","non_fiction","slovenia","trieste","war"]
