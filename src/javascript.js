@@ -681,6 +681,15 @@ addBookToLibrary(
     ["historical","trieste"]
 );
 addBookToLibrary(
+    "La società triestina nel secolo XVIII",
+    "Elio Apih",
+    248,
+    false,
+    "img/Apih.jpg",
+    "https://www.laterza.it/scheda-libro/?isbn=9788858156605",
+    ["historical","trieste"]
+);
+addBookToLibrary(
     "Serbi Croati Sloveni",
     "Jože Pirjevec",
     236,
@@ -759,6 +768,15 @@ addBookToLibrary(
     true,
     "img/Solo.png",
     "https://shop.kappavu.it/KV/prodotto/solo-perche-italiani/",
+    ["crime","contemporary","historical","journalism","political","slovenia","trieste","war"]
+);
+addBookToLibrary(
+    "E allora le foibe?",
+    "Eric Gobetti",
+    136,
+    false,
+    "img/Allora.jpg",
+    "https://www.laterza.it/scheda-libro/?isbn=9788858141120",
     ["crime","contemporary","historical","journalism","political","slovenia","trieste","war"]
 );
 addBookToLibrary(
@@ -1002,6 +1020,24 @@ addBookToLibrary(
     true,
     "img/Čefurji.jpg",
     "https://www.ts360srl.com/it/spletna-knjigarna/cefuri-raus/",
+    ["contemporary","historical_fiction","humor","novel","slovenia"]
+);
+addBookToLibrary(
+    "Il collezionista di paure",
+    "Goran Vojnović",
+    160,
+    false,
+    "img/Strahov.jpg",
+    "https://forumeditrice.it/percorsi/lingua-e-letteratura/s-confini/il-collezionista-di-paure?version=paper",
+    ["contemporary","historical_fiction","humor","novel","slovenia"]
+);
+addBookToLibrary(
+    "Jugoslavia, terra mia",
+    "Goran Vojnović",
+    292,
+    false,
+    "img/Jugo.jpg",
+    "https://forumeditrice.it/percorsi/lingua-e-letteratura/s-confini/jugoslavia-terra-mia",
     ["contemporary","historical_fiction","humor","novel","slovenia"]
 );
 addBookToLibrary(
