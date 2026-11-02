@@ -372,7 +372,7 @@ addBookToLibrary(
     false,
     "img/Glittering.jpg",
     "https://www.professorsbookshelf.com/books/glittering-plain",
-    ["fantasy","folklore"]
+    ["fairy_tales","fantasy","folklore"]
 );
 addBookToLibrary(
     "The Book of Wonder & The Last Book of Wonder",
@@ -381,7 +381,7 @@ addBookToLibrary(
     true,
     "img/Book_of_Wonder.jpg",
     "https://www.professorsbookshelf.com/books/book-of-wonder",
-    ["fantasy","folklore"]
+    ["fairy_tales","fantasy","folklore"]
 );
 addBookToLibrary(
     "The King of Elfland's Daughter",
@@ -390,7 +390,7 @@ addBookToLibrary(
     true,
     "img/King_of_Elfland.png",
     "https://en.wikipedia.org/wiki/The_King_of_Elfland%27s_Daughter",
-    ["fantasy","folklore"]
+    ["fairy_tales","fantasy","folklore"]
 );
 addBookToLibrary(
     "Time and the Gods",
@@ -399,7 +399,7 @@ addBookToLibrary(
     true,
     "img/Time.jpg",
     "https://www.goodreads.com/es/book/show/757018.Time_and_the_Gods",
-    ["fantasy","folklore", "mythology","poetry"]
+    ["fairy_tales","fantasy","folklore","mythology","poetry"]
 );
 addBookToLibrary(
     "Two Bottles of Relish",
@@ -417,7 +417,7 @@ addBookToLibrary(
     "started",
     "img/Celtic.png",
     "https://www.goodreads.com/book/show/700460.Celtic_Myths_and_Legends",
-    ["anthology","fantasy","folklore","mythology","poetry"]
+    ["anthology","fairy_tales","fantasy","folklore","mythology","poetry"]
 );
 addBookToLibrary(
     "Of Ghosts and Goblins",
