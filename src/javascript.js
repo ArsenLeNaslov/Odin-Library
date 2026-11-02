@@ -852,6 +852,15 @@ addBookToLibrary(
      ["anthology","literature","political","philosophy","poetry","slovenia","war"]
 );
 addBookToLibrary(
+    "Fairy Tales - Pravljice",
+    "Fran Milčinski",
+    192,
+    true,
+    "img/Pravljice.png",
+    "https://www.sanje.si/si/fairy-tales.html",
+     ["folklore","fairy_tales","fantasy","slovenia"]
+);
+addBookToLibrary(
     "Il servo jernej e il suo Diritto - Hlapec Jernej in njegova Pravica",
     "Ivan Cankar",
     190,
@@ -945,7 +954,7 @@ addBookToLibrary(
     "Slovenka",
     "Marta Verginella",
     178,
-    "started",
+    true,
     "img/Slovenka.jpg",
     "https://www.vitaactivaeditoria.it/2019/04/25/slovenka-il-primo-giornale-femminile-sloveno/",
     ["contemporary","historical","journalism","non_fiction","slovenia","trieste","war"]
