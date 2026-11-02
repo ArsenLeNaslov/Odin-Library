@@ -867,7 +867,7 @@ addBookToLibrary(
     true,
     "img/Cankar.jpg",
     "https://www.ts360srl.com/spletna-knjigarna/hlapec-jernej-in-njegova-pravica/",
-     ["contemporary","historical_fiction","political","slovenia","war"]
+     ["contemporary","historical_fiction","political","slovenia"]
 );
 addBookToLibrary(
     "Images from Dreams",
@@ -876,7 +876,7 @@ addBookToLibrary(
     false,
     "img/Sanje.png",
     "https://beletrinadigital.si/e-knjiga/images-from-dreams",
-    ["anthology","essay","historical","literature","political","slovenia","war"]
+    ["anthology","essay","historical","literature","political","slovenia"]
 );
 addBookToLibrary(
     "Machine, do you know your duty?",
@@ -957,7 +957,7 @@ addBookToLibrary(
     true,
     "img/Slovenka.jpg",
     "https://www.vitaactivaeditoria.it/2019/04/25/slovenka-il-primo-giornale-femminile-sloveno/",
-    ["contemporary","historical","journalism","non_fiction","slovenia","trieste","war"]
+    ["contemporary","historical","journalism","non_fiction","slovenia","trieste"]
 );
 addBookToLibrary(
     "Un Onomasticidio di Stato",
